@@ -27,11 +27,5 @@
 
 <?php wp_footer(); ?>
 
-<script type="text/javascript" >
-    if (window.navigator.standalone == false) {
-        window.scrollTo(0, 1);
-    }
-</script>
-
 </body>
 </html>
