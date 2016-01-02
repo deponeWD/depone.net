@@ -7,6 +7,31 @@ Author URI: http://depone.de
 
 */
 
+@font-face {
+  font-family: Source Sans Pro Light;
+  src: url("./fonts/source-sans-pro/EOT/SourceSansPro-Light.eot");
+  src: url("./fonts/source-sans-pro/EOT/SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Light.otf.woff") format("woff"), url("./fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Light.ttf.woff") format("truetype"), url("./fonts/source-sans-pro/SVG/SourceSansPro-Light.svg#Source Sans Pro Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Source Sans Pro Light Italic;
+  src: url("./fonts/source-sans-pro/EOT/SourceSansPro-LightIt.eot");
+  src: url("./fonts/source-sans-pro/EOT/SourceSansPro-LightIt.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro/WOFF/OTF/SourceSansPro-LightIt.otf.woff") format("woff"), url("./fonts/source-sans-pro/WOFF/TTF/SourceSansPro-LightIt.ttf.woff") format("truetype"), url("./fonts/source-sans-pro/SVG/SourceSansPro-LightIt.svg#Source Sans Pro Light Italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Source Sans Pro Regular;
+  src: url("./fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot");
+  src: url("./fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Regular.otf.woff") format("woff"), url("./fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Regular.ttf.woff") format("truetype"), url("./fonts/source-sans-pro/SVG/SourceSansPro-Regular.svg#Source Sans Pro Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Source Code Pro Light;
+  src: url("./fonts/source-code-pro/EOT/SourceCodePro-Light.eot");
+  src: url("./fonts/source-code-pro/EOT/SourceCodePro-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/source-code-pro/WOFF/OTF/SourceCodePro-Light.otf.woff") format("woff"), url("./fonts/source-code-pro/WOFF/TTF/SourceCodePro-Light.ttf.woff") format("truetype"), url("./fonts/source-code-pro/SVG/SourceCodePro-Light.svg#Source Sans Pro Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* Hier beginnt dann das eigentliche Stylesheet, wenn du es leer l&auml;sst - was ich am Anfang immer mache, siehst du ob die Struktur der Seite passt. */
 
 header, nav, section, article, aside, footer {
@@ -18,9 +43,8 @@ body {
     border-top: 5px solid rgb(0,153,0);
     /*border-bottom: 1px solid rgb(0,153,0);*/
     color: rgb(88,88,90);
-    font-family: "source-sans-pro",sans-serif;
-    font-size: 100%;
-    font-weight: 300;
+    font-family: "Source Sans Pro Light",sans-serif;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     -webkit-text-size-adjust: none;
