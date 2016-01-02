@@ -344,7 +344,7 @@ blockquote p small {
 
 pre,
 code {
-    font-family: 'source-code-pro', monospace;
+    font-family: 'Source Code Pro Light', monospace;
     font-size: .9em;
 }
 
@@ -358,7 +358,7 @@ pre[class*="language-"] {
     border-radius: .1875em;
     color: black;
     text-shadow: 0 1px white;
-    font-family: 'source-code-pro', monospace;
+    font-family: 'Source Code Pro Light', monospace;
     font-size: .875em;
     direction: ltr;
     text-align: left;
@@ -646,9 +646,8 @@ form.suchformular input[type="text"] {
     border-radius: .1875em;
     color: rgb(88,88,90);
     display: block;
-    font-family: "source-sans-pro",sans-serif;
+    font-family: "Source Sans Pro Light",sans-serif;
     font-size: 1em;
-    font-weight: 300;
     margin: .1875em 0 0;
     padding: .3125em 2%;
     position: relative;
@@ -685,9 +684,8 @@ form.suchformular input[type="submit"] {
     -o-border-radius: .1875em;
     border-radius: .1875em;
     color: rgb(130,130,130);
-    font-family: "source-sans-pro",sans-serif;
+    font-family: "Source Sans Pro Regular",sans-serif;
     font-size: 1em;
-    font-weight: 500;
     outline: none;
     padding: .3125em 2%;
     text-decoration: none;
@@ -1012,13 +1010,13 @@ form.suchformular input[type="submit"]::-moz-focus-inner {
 /* IE7 und IE8 Anpassungen */
 .ie body {
     border-top: 3px solid rgb(0,153,0);
-    font-family: "source-sans-pro-n3", "source-sans-pro";
+    font-family: "Source Sans Pro Light";
 }
 .ie code[class*="language-"],
 .ie pre[class*="language-"],
 .ie code,
 .ie pre {
-    font-family: "source-code-pro-n3", "source-code-pro";
+    font-family: "Source Code Pro Light";
 }
 .ie section#page {
     width: 40em;
