@@ -2,7 +2,7 @@
 /**
     * 2 Seitenleisten wird eingerichtet
 */
-    if ( function_exists('register_sidebar') ) {
+  if ( function_exists('register_sidebar') ) {
 	register_sidebars(2, array(
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',
 		'after_widget' => '</li>',
@@ -31,23 +31,63 @@
     }
     add_filter('excerpt_more', 'blog_excerpt');
 
+/**
+ * Register Stylesheet
+**/
+  function dpng_register_styles(){
+    wp_register_style(
+      'main-stylesheet', //handle
+      get_template_directory_uri() . '/style.css', //source
+      null, //no dependencies
+      filemtime( get_stylesheet_directory() . '/style.css' ) //version
+    );
+  }
+  add_action('init', 'dpng_register_styles');
+
+  function dpng_enqueue_styles(){
+    if (!is_admin()):
+      wp_enqueue_style('main-stylesheet'); //style.css
+    endif; //!is_admin
+  }
+  add_action('wp_print_styles', 'dpng_enqueue_styles');
 
 /**
-    * Enqueue jQuery and prism
-*/
-    function ng13scripts() {
-        wp_enqueue_script(
-            'prism',
-            get_template_directory_uri() . '/js/prism.js',
-            array('jquery')
-        );
-        wp_enqueue_script(
-            'modernizr',
-            get_template_directory_uri() . '/js/modernizr.js',
-            array('jquery')
-        );
-    }
-    add_action('wp_enqueue_scripts', 'ng13scripts');
+ * Register Scripts
+**/
+  function dpng_register_scripts() {
+    //global.min.js and modernizr.min.js– dependent on jQuery
+    wp_register_script(
+      'prism', //handle
+      get_template_directory_uri() . '/js/prism.js', //source
+      array('jquery'), //dependencies
+      filemtime( get_template_directory() . '/js/prism.js' ), // version
+      true //run in footer
+    );
+    wp_register_script(
+      'modernizr', //handle
+      get_template_directory_uri() . '/js/modernizr.js', //source
+      array('jquery'), //dependencies
+      filemtime( get_template_directory() . '/js/modernizr.js' ), // version
+      true //run in footer
+    );
+    wp_register_script(
+      'cookieconsent', //handle
+      get_template_directory_uri() . '/js/cookieconsent.min.js', //source
+      array('jquery'), //dependencies
+      filemtime( get_template_directory() . '/js/cookieconsent.min.js' ), // version
+      true //run in footer
+    );
+  }
+  add_action('init', 'dpng_register_scripts');
+
+  function dpng_enqueue_scripts(){
+    if (!is_admin()):
+      wp_enqueue_script('prism'); //global.min.js
+      wp_enqueue_script('modernizr'); //modernizr.js
+      wp_enqueue_script('cookieconsent'); //cookieconsent.min.js
+    endif; //!is_admin
+  }
+  add_action('wp_print_scripts', 'dpng_enqueue_scripts');
 
 /**
     * Die Kommentarausgabe einstellen
@@ -105,70 +145,72 @@ function ng13_comment( $comment, $args, $depth ) {
         </article><!-- #comment-## -->
 
     <?php
-            break;
+    break;
     endswitch;
 }
 /**
-    * Das Kommentarformular wird angepasst
+  * Das Kommentarformular wird angepasst
 */
 function my_fields($fields) {
-    $fields['author'] = '<p class="comment-form-author">' . '<label for="author">' . __( 'Name*' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
-    '<br/><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>';
-    $fields['email'] = '<p class="comment-form-email"><label for="email">' . __( 'E-Mail*' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
-    '<br/><input id="email" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>';
-    $fields['url'] = '<p class="comment-form-url"><label for="url">' . __( 'Webseite' ) . '</label>' .
-    '<br/><input id="url" name="url" type="url" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>';
-    return $fields;
+  $fields['author'] = '<p class="comment-form-author">' . '<label for="author">' . __( 'Name*' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
+  '<br/><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>';
+  $fields['email'] = '<p class="comment-form-email"><label for="email">' . __( 'E-Mail*' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
+  '<br/><input id="email" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>';
+  $fields['url'] = '<p class="comment-form-url"><label for="url">' . __( 'Webseite' ) . '</label>' .
+  '<br/><input id="url" name="url" type="url" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>';
+  return $fields;
 }
 add_filter('comment_form_default_fields','my_fields');
 
 //Adding the Open Graph in the Language Attributes
-    function add_opengraph_doctype( $output ) {
-        return $output . ' prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"';
-    }
-    add_filter('language_attributes', 'add_opengraph_doctype');
+  function add_opengraph_doctype( $output ) {
+    return $output . ' prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"';
+  }
+  add_filter('language_attributes', 'add_opengraph_doctype');
 
-    //Lets add Open Graph Meta Info
+  //Lets add Open Graph Meta Info
 
-    function insert_fb_in_head() {
-        global $post;
-        if ( !is_singular()) //if it is not a post or a page
-            return;
-            echo '<meta property="fb:admins" content="100010520380885"/>';
-            echo '<meta property="og:title" content="DEPONE Netzgestaltung &ndash; ' . get_the_title() . '"/>';
-            echo '<meta property="og:type" content="article"/>';
-            echo '<meta property="og:url" content="' . get_permalink() . '"/>';
-            echo '<meta property="og:site_name" content="DEPONE Netzgestaltung"/>';
-        if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-            $default_image="https://depone.net/apple-touch-icon-precomposed.png"; //replace this with a default image on your server or an image in your media library
-            echo '<meta property="og:image" content="' . $default_image . '"/>';
-        }
-        else{
-            $thumbnail_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
-            echo '<meta property="og:image" content="' . esc_attr( $thumbnail_src[0] ) . '"/>';
-        }
-        echo "";
-    }
-    add_action( 'wp_head', 'insert_fb_in_head', 5 );
-
-function insert_twitter_cards() {
+  function insert_fb_in_head() {
     global $post;
     if ( !is_singular()) //if it is not a post or a page
-        return;
-        echo '<meta name="twitter:url" content="' . get_permalink() . '">';
-        echo '<meta name="twitter:site" content="depone">';
-        echo '<meta name="twitter:domain" content="depone.net">';
-        echo '<meta name="twitter:card" content="summary_large_image">';
-        echo '<meta name="twitter:creator" content="@depone">';
-        echo '<meta name="twitter:title" content="' . get_the_title() . '">';
-        echo '<meta name="twitter:description" content="' . get_the_excerpt() . '">';
+      return;
+      echo '<meta property="fb:admins" content="100010520380885"/>';
+      echo '<meta property="og:title" content="DEPONE Netzgestaltung &ndash; ' . get_the_title() . '"/>';
+      echo '<meta property="og:type" content="article"/>';
+      echo '<meta property="og:url" content="' . get_permalink() . '"/>';
+      echo '<meta property="og:site_name" content="DEPONE Netzgestaltung"/>';
+      echo '<meta property="og:description" content="' . get_the_excerpt() . '"/>';
     if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-        $fallback_image="https://depone.net/apple-touch-icon-precomposed.png"; //replace this with a default image on your server or an image in your media library
-        echo '<meta name="twitter:image:src" content="' . $fallback_image . '"/>';
+      $default_image="https://depone.net/apple-touch-icon-precomposed.png"; //replace this with a default image on your server or an image in your media library
+      echo '<meta property="og:image" content="' . $default_image . '"/>';
     }
     else{
-        $post_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
-        echo '<meta name="twitter:image:src" content="' . esc_attr( $post_thumbnail[0] ) . '"/>';
+      $thumbnail_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
+      echo '<meta property="og:image" content="' . esc_attr( $thumbnail_src[0] ) . '"/>';
+    }
+    echo "";
+  }
+  add_action( 'wp_head', 'insert_fb_in_head', 5 );
+
+  // Twitter-Cards
+  function insert_twitter_cards() {
+    global $post;
+    if ( !is_singular()) //if it is not a post or a page
+      return;
+      echo '<meta name="twitter:url" content="' . get_permalink() . '">';
+      echo '<meta name="twitter:site" content="depone">';
+      echo '<meta name="twitter:domain" content="depone.net">';
+      echo '<meta name="twitter:card" content="summary_large_image">';
+      echo '<meta name="twitter:creator" content="@depone">';
+      echo '<meta name="twitter:title" content="' . get_the_title() . '">';
+      echo '<meta name="twitter:description" content="' . get_the_excerpt() . '">';
+    if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
+      $fallback_image="https://depone.net/apple-touch-icon-precomposed.png"; //replace this with a default image on your server or an image in your media library
+      echo '<meta name="twitter:image:src" content="' . $fallback_image . '"/>';
+    }
+    else{
+      $post_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
+      echo '<meta name="twitter:image:src" content="' . esc_attr( $post_thumbnail[0] ) . '"/>';
     }
     echo "";
   }
