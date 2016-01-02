@@ -24,8 +24,13 @@
     <meta name="description" content="Hallo, ich bin Daniel Ehniss, ein Web Designer in Karlsruhe. DEPONE Netzgestaltung ist der Rahmen in dem ich Webseiten entwickle. Webseiten mit Leidenschaft, klar und kommunikativ." >
 <?php } ?>
 
-
-<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="<?php echo esc_url( home_url( '/favicon.ico' ) ); ?>" rel="shortcut icon" type="image/x-icon">
+<link rel="apple-touch-icon" href="<?php echo esc_url( home_url( '/touchicon.png' ) ); ?>">
+<link rel="icon" href="<?php echo esc_url( home_url( '/favicon.png' ) ); ?>">
+<!--[if IE]><link rel="shortcut icon" href="<?php echo esc_url( home_url( '/favicon.ico' ) ); ?>"><![endif]-->
+<!-- or, set /favicon.ico for IE10 win -->
+<meta name="msapplication-TileColor" content="#D83434">
+<meta name="msapplication-TileImage" content="<?php echo esc_url( home_url( '/tileicon.png' ) ); ?>">
 
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" >
 
