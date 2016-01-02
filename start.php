@@ -17,6 +17,21 @@
 
 		<?php endwhile; ?>
 
+		<?php $temp_query = $wp_query; ?>
+		<?php query_posts('page_id=6'); /* Abschnitt: Projekte */ ?>
+
+		<?php while (have_posts()) : the_post(); ?>
+
+		  <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+		    <h2 class="section" ><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zu %s', ''), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h2>
+		    <?php $Link = get_post_custom_values("start_link"); if (isset($Link[0])) { echo '<a href="'. $Link[0] .'" target="_blank" title="Link zur Webseite" >' ; } ?><?php the_post_thumbnail('medium', array('class' => 'start')); ?><?php echo '</a>'; ?>
+		    <div class="entry">
+		      <?php the_excerpt(); ?>
+		    </div><!-- entry -->
+		  </article><!-- post -->
+
+		<?php endwhile; ?>
+
 		<?php $wp_query = $temp_query; ?>
     	<?php if (have_posts()) : /* Abschnitt: Blog */ ?>
 
