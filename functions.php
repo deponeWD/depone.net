@@ -215,4 +215,11 @@ add_filter('comment_form_default_fields','my_fields');
     echo "";
   }
   add_action( 'wp_head', 'insert_twitter_cards', 5 );
+  // Add automatic-feed-links to the head
+  global $wp_version;
+  if ( version_compare( $wp_version, '3.0', '>=' ) ) :
+    add_theme_support( 'automatic-feed-links' );
+  else :
+    automatic_feed_links();
+  endif;
 ?>
