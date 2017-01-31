@@ -58,23 +58,23 @@
     //global.min.js and modernizr.min.js– dependent on jQuery
     wp_register_script(
       'prism', //handle
-      get_template_directory_uri() . '/js/prism.js', //source
+      get_template_directory_uri() . '/assets/js/prism.js', //source
       array('jquery'), //dependencies
-      filemtime( get_template_directory() . '/js/prism.js' ), // version
+      filemtime( get_template_directory() . '/assets/js/prism.js' ), // version
       true //run in footer
     );
     wp_register_script(
       'modernizr', //handle
-      get_template_directory_uri() . '/js/modernizr.js', //source
+      get_template_directory_uri() . '/assets/js/modernizr.js', //source
       array('jquery'), //dependencies
-      filemtime( get_template_directory() . '/js/modernizr.js' ), // version
+      filemtime( get_template_directory() . '/assets/js/modernizr.js' ), // version
       true //run in footer
     );
     wp_register_script(
       'cookieconsent', //handle
-      get_template_directory_uri() . '/js/cookieconsent.min.js', //source
+      get_template_directory_uri() . '/assets/js/cookieconsent.min.js', //source
       array('jquery'), //dependencies
-      filemtime( get_template_directory() . '/js/cookieconsent.min.js' ), // version
+      filemtime( get_template_directory() . '/assets/js/cookieconsent.min.js' ), // version
       true //run in footer
     );
   }
@@ -152,9 +152,13 @@ function ng13_comment( $comment, $args, $depth ) {
   * Das Kommentarformular wird angepasst
 */
 function my_fields($fields) {
-  $fields['author'] = '<p class="comment-form-author">' . '<label for="author">' . __( 'Name*' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
+  $commenter = wp_get_current_commenter();
+  $req = get_option( 'require_name_email' );
+  $aria_req = ( $req ? " aria-required='true'" : '' );
+
+  $fields['author'] = '<p class="comment-form-author">' . '<label for="author">' . __( 'Name' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
   '<br/><input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></p>';
-  $fields['email'] = '<p class="comment-form-email"><label for="email">' . __( 'E-Mail*' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
+  $fields['email'] = '<p class="comment-form-email"><label for="email">' . __( 'E-Mail' ) . '</label> ' . ( $req ? '<span class="required">*</span>' : '' ) .
   '<br/><input id="email" name="email" type="email" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></p>';
   $fields['url'] = '<p class="comment-form-url"><label for="url">' . __( 'Webseite' ) . '</label>' .
   '<br/><input id="url" name="url" type="url" value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></p>';
@@ -215,6 +219,7 @@ add_filter('comment_form_default_fields','my_fields');
     echo "";
   }
   add_action( 'wp_head', 'insert_twitter_cards', 5 );
+
   // Add automatic-feed-links to the head
   global $wp_version;
   if ( version_compare( $wp_version, '3.0', '>=' ) ) :

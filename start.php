@@ -9,7 +9,8 @@
 		<?php while (have_posts()) : the_post(); ?>
 
 			<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-				<h2 class="section" ><a href="<?php echo esc_url( home_url( '/infos/' ) ); ?>" title="Link zur Infoseite" >Hallo!</a></h2>
+				<!-- <h2 class="section" ><a href="<?php echo esc_url( home_url( '/infos/' ) ); ?>" title="Link zur Infoseite" >Hallo!</a></h2> -->
+				<?php the_post_thumbnail('medium', array('class' => 'start')); ?>
 				<div class="entry">
 					<?php the_excerpt(); ?>
 				</div><!-- entry -->

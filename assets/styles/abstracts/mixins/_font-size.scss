@@ -1,0 +1,5 @@
+// Mixin for font-sizes in rem with px-fallback
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calc-rem($size);
+}

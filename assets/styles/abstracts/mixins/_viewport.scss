@@ -1,0 +1,12 @@
+/*
+** Mixin for the w3c-approved viewport tag
+** usage @include viewport and add some script to the head
+** see http://trentwalton.com/2013/01/16/windows-phone-8-viewport-fix/ and @ResponsibleRWD
+*/
+@mixin viewport {
+  @-webkit-viewport{width:device-width}
+  @-moz-viewport{width:device-width}
+  @-ms-viewport{width:device-width}
+  @-o-viewport{width:device-width}
+  @viewport{width:device-width}
+}

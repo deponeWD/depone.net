@@ -1,0 +1,10 @@
+// Mixin for easy breakpoint access
+@mixin breakpoint($point, $orientation: null) {
+  $min-width: em($point, 16px);
+	@if $orientation {
+    @media (min-width: $min-width) and (orientation: $orientation) { @content ; }
+  }
+  @else {
+    @media (min-width: $min-width) { @content ; }
+  }
+}

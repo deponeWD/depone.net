@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+// The mixins are put in separate files inside the mixins-folder.
+// Make sure list and folder are in sync.
+
+@import
+  'mixins/breakpoint',
+  'mixins/content-column',
+  'mixins/clearfix',
+  'mixins/font-size',
+  'mixins/font-stack',
+  'mixins/font',
+  'mixins/make-visible',
+  'mixins/viewport',
+  'mixins/visually-hidden';

@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// COLORS
+// -----------------------------------------------------------------------------
+
+$text: rgb(51,51,51) !default;
+$background: rgb(250,250,250) !default;
+$brand-color: rgb(0,153,0) !default;
+$dark-grey: rgb(102,102,102) !default;
+$grey: rgb(229,229,229) !default;
+$white: rgb(255,255,255) !default;
+
+// Colors for code-snippets
+$comment: #a9a9a9 !default;
+$punctuation: #999 !default;
+$property: #905 !default;
+$selector: $brand-color !default;
+$operator: #a67f59 !default;
+$operator-background: hsla(0,0%,100%,.5) !default;
+$function: #07a !default;
+$regex: #e90 !default;
+
+
+// -----------------------------------------------------------------------------
+// METRICS
+// -----------------------------------------------------------------------------
+
+$border-radius: 3px;
+$single-space: 0.35em;
+
+$base-font-size: 16px;
+
+// -----------------------------------------------------------------------------
+// BREAKPOINTS
+// -----------------------------------------------------------------------------
+
+$small: 416px;
+$medium: 656px;
+$large: 800px;

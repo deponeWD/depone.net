@@ -1,0 +1,9 @@
+// Mixin for the use of Webfonts
+@mixin declare-font-face($font-family, $font-filename) {
+  @font-face {
+    font-family: #{$font-family};
+    src: url('./assets/fonts/#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/#{$font-filename}.woff') format('woff'),
+    url('./assets/fonts/#{$font-filename}.ttf') format('truetype');
+  }
+}

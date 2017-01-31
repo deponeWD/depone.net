@@ -53,7 +53,15 @@
 <section id="page">
 
 <header role="banner">
-    <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><span><?php bloginfo('name'); ?></span></a></h1>
+    <h1>
+      <?php if (is_page_template('start.php')) {
+        echo '<span class="depone">DEPONE</span> <span class="netzgestaltung">Netzgestaltung</span>';
+      } else {
+        echo '<a href="';
+        echo esc_url( home_url('/') );
+        echo '"><span class="depone">DEPONE</span> <span class="netzgestaltung">Netzgestaltung</span></a>';
+      } ?>
+    </h1>
     <h2 class="description">
         <?php bloginfo('description'); ?>
     </h2><!-- description -->
@@ -63,7 +71,4 @@
             <?php wp_list_pages('title_li=&exclude=143'); ?>
         </ul>
     </nav>
-
 </header>
-
-<hr /><!-- Trennlinie -->

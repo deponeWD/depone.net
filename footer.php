@@ -1,5 +1,3 @@
-<hr /><!-- Trennlinie -->
-
 <footer role="contentinfo">
     <ul class="first">
         <li><strong>DEPONE Netzgestaltung</strong></li>
@@ -11,7 +9,7 @@
         <li><strong>B&uuml;ro 5&amp;30</strong></li>
         <li>Gottesauer Straße 35</li>
         <li>76131 Karlsruhe</li>
-        <li><a href="http://5und30.de" title="Link zur Webseite des Büro 5&30" >5und30.de</a></li>
+        <li><a href="https://5und30.de" title="Link zur Webseite des Büro 5&30" >5und30.de</a></li>
     </ul>
     <ul class="third" >
         <li><a href="<?php echo esc_url( home_url( '/kontakt/' ) ); ?>" title="Link zur Kontaktseite" >Kontakt</a></li>
@@ -21,7 +19,6 @@
         <li><a href="<?php echo esc_url( home_url( '/feed' ) ); ?>" title="Link zum RSS-Feed des Blogs" >RSS</a></li>
     </ul>
     <div class="suchfeld"><?php get_search_form(); ?></div>
-    <hr />
 </footer><!-- footer -->
 </section><!-- page -->
 

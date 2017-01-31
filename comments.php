@@ -3,7 +3,7 @@
 <div id="comments">
 
     <?php if ( have_comments() ) : ?>
-        <h2 class="kommentaranzahl" ><?php printf( _n( '<span class="komplett" ><span class="zahl" >1</span> Kommentar</span>', '<span class="komplett"><span class="zahl" >%1$s</span> Kommentare</span>', get_comments_number(), '' ), number_format_i18n( get_comments_number() )); ?></h2>
+        <h2 class="comment-count" ><?php printf( _n( '<span class="komplett" ><span class="zahl" >1</span> Kommentar</span>', '<span class="komplett"><span class="zahl" >%1$s</span> Kommentare</span>', get_comments_number(), '' ), number_format_i18n( get_comments_number() )); ?></h2>
     <?php endif; // check if there are comments ?>
 
 
@@ -45,7 +45,7 @@
 
     <?php endif; // check if there are comments ?>
 
-<?php comment_form(array('title_reply'=>'Schreib&rsquo; einen Kommentar', 'comment_notes_before' => '', 'cancel_reply_link' => '&ndash; abbrechen &ndash;', 'label_submit' => 'kommentieren', 'comment_notes_after' => '')); ?>
+<?php comment_form(array('title_reply'=>'Schreib&rsquo; einen Kommentar', 'comment_notes_before' => '', 'cancel_reply_link' => 'abbrechen', 'label_submit' => 'kommentieren', 'comment_notes_after' => '')); ?>
 
 </div><!-- #comments -->
 <?php endif; // check if comments are open ?>

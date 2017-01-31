@@ -1,0 +1,9 @@
+// INCLUDE FONT-STACK
+// Mixin to include font-stack with normal font-weight and font-style
+// Available font-stacks are defined in _variables.scss
+// USAGE: @include($font-stack);
+@mixin font($font-stack) {
+	font-family: $font-stack;
+	font-weight: normal;
+	font-style: normal;
+}

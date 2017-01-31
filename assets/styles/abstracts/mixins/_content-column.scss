@@ -1,0 +1,18 @@
+@mixin content-column {
+  margin: 0 auto;
+  padding: 0 0 $vertical-space;
+  width: 90%;
+
+  @include breakpoint($medium) {
+    @include container(10);
+  }
+
+  @include breakpoint($large) {
+    max-width: 960px;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
