@@ -785,16 +785,16 @@
 		"uL": 1
 		},
 	"\/assets\/styles\/main.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
-		"oF": 2,
-		"oS": 3,
+		"oAP": "\/assets\/styles\/main.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/assets\/styles\/vendor\/_normalize.scss": {
@@ -854,11 +854,11 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 424972,
+		"iS": 248830,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/search.php": {
 		"ft": 8192,
