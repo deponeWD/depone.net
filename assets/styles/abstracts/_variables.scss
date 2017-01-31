@@ -14,14 +14,14 @@ $grey: rgb(229,229,229) !default;
 $white: rgb(255,255,255) !default;
 
 // Colors for code-snippets
-$comment: #a9a9a9 !default;
-$punctuation: #999 !default;
-$property: #905 !default;
+$comment: tint($dark-grey,30) !default;
+$punctuation: tint($dark-grey,15) !default;
+$property: rgb(229,107,11) !default;
 $selector: $brand-color !default;
-$operator: #a67f59 !default;
+$operator: rgb(102,50,10) !default;
 $operator-background: hsla(0,0%,100%,.5) !default;
-$function: #07a !default;
-$regex: #e90 !default;
+$function: rgb(44,17,166) !default;
+$regex: rgb(102,50,10) !default;
 
 
 // -----------------------------------------------------------------------------
