@@ -7,15 +7,18 @@ Author: Daniel Ehniss
 Author URI: https://depone.de
 
 */
+@import
+  'abstracts/variables';
+
 // 1. Vendors
 @import
-  'vendor/normalize';
+  'vendor/normalize',
+  'vendor/cookieconsent';
 
 // 2. Configuration and helpers
 @import
   'abstracts/functions',
-  'abstracts/mixins',
-  'abstracts/variables';
+  'abstracts/mixins';
 
 // 3. Base stuff
 @import
