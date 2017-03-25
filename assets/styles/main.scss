@@ -62,12 +62,6 @@ section#page {
   }
 }
 
-.page-id-6 section#page {
-  @include breakpoint($large) {
-    width: rem(800px);
-  }
-}
-
 header h1 {
   font-family: "Source Sans Pro Regular", sans-serif;
   font-size: rem(18px);
@@ -224,7 +218,7 @@ h2.start {
 h3 {
   clear: both;
   font-family: "Source Sans Pro Semibold", sans-serif;
-  font-size: 32px;
+  font-size: rem(32px);
   font-weight: normal;
   margin: rem(16px) 0 rem(8px);
   text-align: center;
@@ -272,6 +266,16 @@ h3.start {
 
 h3.archive a, h3.start a {
   text-decoration: none;
+}
+
+h4 {
+  clear: both;
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  margin: rem(16px) 0 rem(8px);
+
+  @include breakpoint($medium) {
+    margin: rem(32px) 0 rem(16px);
+  }
 }
 
 a,
@@ -414,6 +418,49 @@ img.start {
 
 .entry ul {
   list-style: circle;
+}
+
+.entry ul.projects-list {
+  list-style: none;
+  padding-right: 0;
+  padding-left: 0;
+  // text-align: center;
+}
+
+h3.projects-year {
+  border-bottom: 1px solid;
+  text-align: left;
+}
+
+.projects-list-item {
+  margin-top: 0;
+  margin-bottom: rem(32px);
+
+  @include breakpoint($medium) {
+    margin-bottom: rem(48px);
+  }
+}
+
+h4.projects-list-client {
+  font-size: rem(20px);
+  margin: 0;
+
+  @include breakpoint($medium) {
+    font-size: rem(24px);
+  }
+}
+
+p.projects-list-description,
+p.projects-list-link {
+  margin: rem(4px) 0 0;
+
+  @include breakpoint($medium) {
+    margin: rem(6px) 0 0;
+  }
+}
+
+.visually-hidden {
+  @include visually-hidden;
 }
 
 hr {
