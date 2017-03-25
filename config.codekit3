@@ -7,7 +7,7 @@
 		"uuidString": "D5A9BEB0-7E8E-43EF-9E58-05F3A67C4741"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
 	"\/404.php": {
 		"ft": 8192,
@@ -556,10 +556,12 @@
 	"\/assets\/img\/depone.png": {
 		"ft": 32768,
 		"iS": 4193,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/depone.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/depone.svg": {
 		"ft": 2097152,
@@ -574,10 +576,12 @@
 	"\/assets\/img\/touchicon.png": {
 		"ft": 32768,
 		"iS": 5826,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/touchicon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/js\/cookieconsent.min.js": {
 		"ft": 64,
@@ -868,10 +872,12 @@
 	"\/screenshot.png": {
 		"ft": 32768,
 		"iS": 424972,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/search.php": {
 		"ft": 8192,
@@ -1594,6 +1600,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1791,6 +1801,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2070,6 +2084,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -2121,6 +2139,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -2215,6 +2237,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -2661,7 +2687,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2754,7 +2781,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

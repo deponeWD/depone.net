@@ -22,7 +22,7 @@
     	<?php if (have_posts()) : /* Abschnitt: Blog */ ?>
 
         <h2 class="section" ><a class="weiterlesen" href="<?php echo esc_url( home_url( '/blog/' ) ); ?>" title="Link ins Blog" >Blog</a></h2>
-        <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("showposts=2&paged=$paged"); ?>
+        <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("showposts=4&paged=$paged"); ?>
 
 		<?php while (have_posts()) : the_post(); ?>
 		<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
