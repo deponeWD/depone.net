@@ -15,7 +15,7 @@
 				<div class="entry">
 					<p><?php echo get_the_excerpt(); ?> <a class="weiterlesen" href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>">&rsaquo; weiterlesen</a></p>
 				</div><!-- entry -->
-				<p class="postmetadata">Ver&ouml;ffentlicht am <?php the_time(__('d.m.Y', '')) ?> von <?php the_author() ?> <?php edit_post_link(__('bearbeiten', ''), '(', ') '); ?> &middot; <?php comments_popup_link(__('Schreib&rsquo; einen Kommentar', ''), __('1 Kommentar', ''), __('% Kommentare', ''), '', __('Kommentare geschlossen', '') ); ?></p>
+				<p class="postmetadata">Ver&ouml;ffentlicht am <?php the_time(__('d.m.Y', '')) ?> von <?php the_author() ?> <?php edit_post_link(__('bearbeiten', ''), '(', ') '); ?> &middot; <?php comments_popup_link(__('Reagiere darauf', ''), __('1 Reaktion', ''), __('% Reaktionen', ''), '', __('Reagieren nicht möglich', '') ); ?></p>
 			</article><!-- post -->
 
 		<?php endwhile; ?>

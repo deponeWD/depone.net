@@ -3,7 +3,7 @@
         <li><strong>DEPONE Netzgestaltung</strong></li>
         <li>Daniel Ehniss</li>
         <li>daniel@depone.de</li>
-        <li><a href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" >@depone</a></li>
+        <li><a rel="me" class="url" href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" >@depone</a></li>
     </ul>
     <ul class="second" >
         <li><strong>B&uuml;ro 5&amp;30</strong></li>

@@ -12,6 +12,11 @@
 				<div class="entry">
 					<?php the_content(__('weiterlesen &rarr;', '')); ?>
 				</div><!-- entry -->
+        <p class="views">
+          <?php if (function_exists("dpp_show_views")) {
+           dpp_show_views();
+          }?>
+        </p>
 				<p class="postmetadata">Ver&ouml;ffentlicht am <?php the_time(__('d.m.Y', '')) ?> von <?php the_author() ?><?php printf(__(' in %s', ''), get_the_category_list(', ')); ?>. <?php edit_post_link(__('bearbeiten', ''), '(', ') '); ?> </p>
 			</article><!-- post -->
 

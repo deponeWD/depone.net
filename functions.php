@@ -98,15 +98,19 @@ function ng13_comment( $comment, $args, $depth ) {
     switch ( $comment->comment_type ) :
         case 'pingback' :
         case 'trackback' :
+        case 'webmention' :
     ?>
-    <li class="post pingback">
-        <p><?php _e( 'In einem anderen Blog dazu:', '' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( 'bearbeiten', '' ), '<span class="bearbeiten">', '</span>' ); ?></p>
+    <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
+      <article id="comment-<?php comment_ID(); ?>" class="comment <?php $comment->comment_type; ?>" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+        <div class="comment-content p-summary p-name" itemprop="text name description"><?php comment_text(); ?></div>
+      </article>
+    </li>
     <?php
             break;
         default :
     ?>
     <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
-        <article id="comment-<?php comment_ID(); ?>" class="comment">
+        <article id="comment-<?php comment_ID(); ?>" class="comment <?php $comment->comment_type; ?>" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
             <footer class="comment-meta">
                 <div class="comment-author vcard">
                     <?php
@@ -143,6 +147,7 @@ function ng13_comment( $comment, $args, $depth ) {
                 <?php comment_reply_link( array_merge( $args, array( 'reply_text' => __( 'antworten', '' ), 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
             </div><!-- .reply -->
         </article><!-- #comment-## -->
+      </li>
 
     <?php
     break;

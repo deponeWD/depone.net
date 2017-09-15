@@ -26,6 +26,8 @@ Author URI: https://depone.de
 
 // 4. Layout-related sections
 // 5. Components
+@import
+  'components/webmentions';
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -692,6 +694,7 @@ h2.kommentaranzahl {
   }
 }
 
+.webmention--mentions,
 ol.commentlist {
   font-size: rem(16px);
   margin: rem(12px) 0 0;
@@ -764,11 +767,26 @@ ol.commentlist footer {
     }
 }
 
-ol.commentlist footer img.avatar {
+img.avatar {
+  border-radius: 50%;
   float: left;
-  height: auto;
+  height: rem(50px);
   margin: 0 rem(16px) rem(16px) 0;
   width: rem(50px);
+}
+
+.webmention--likes,
+.webmention--reposts,
+.webmention--mentions {
+  @include clearfix;
+
+  list-style: none;
+  padding: 0;
+  margin: 0 rem(12px);
+
+  @include breakpoint($medium) {
+    margin: 0 rem(32px) !important;
+  }
 }
 
 ol.commentlist footer p {
@@ -795,7 +813,8 @@ ol.commentlist .comment-content p {
   padding: 0;
 }
 
-form#commentform {
+form#commentform,
+form#webmention-form {
   margin: 0 auto;
   padding: rem(8px) 0 rem(32px);
   width: 98%;
@@ -831,10 +850,10 @@ p.comment-form-email span.required {
   z-index: 1;
 }
 
-#respond input[type="text"],
-#respond input[type="email"],
-#respond input[type="url"],
-#respond textarea,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea,
 form.suchformular input[type="text"] {
   background-color: $background;
   border: 1px solid $dark-grey;
@@ -857,10 +876,10 @@ form.suchformular input[type="text"] {
   }
 }
 
-#respond input[type="text"]:focus,
-#respond input[type="email"]:focus,
-#respond input[type="url"]:focus,
-#respond textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+textarea:focus,
 form.suchformular input[type="text"]:focus {
   background-color: $white;
   border: 1px solid transparentize($brand-color, 0.3);
@@ -872,7 +891,7 @@ form.suchformular input[type="text"]:focus {
 }
 
 input#submit,
-form.suchformular input[type="submit"] {
+input[type="submit"] {
   background-color: $text;
   border: 1px solid $text;
   -webkit-border-radius: $border-radius;
@@ -908,8 +927,8 @@ form.suchformular input[type="submit"] {
 
 input#submit:hover,
 input#submit:focus,
-form.suchformular input[type="submit"]:hover,
-form.suchformular input[type="submit"]:focus {
+input[type="submit"]:hover,
+input[type="submit"]:focus {
     background-color: $dark-grey;
     border-color: $dark-grey;
     color: $white;
