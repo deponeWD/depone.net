@@ -694,7 +694,7 @@ h2.kommentaranzahl {
   }
 }
 
-.webmention--mentions,
+.mention-list,
 ol.commentlist {
   font-size: rem(16px);
   margin: rem(12px) 0 0;
@@ -767,6 +767,7 @@ ol.commentlist footer {
     }
 }
 
+.mention-list li img,
 img.avatar {
   border-radius: 50%;
   float: left;
@@ -775,9 +776,7 @@ img.avatar {
   width: rem(50px);
 }
 
-.webmention--likes,
-.webmention--reposts,
-.webmention--mentions {
+.mention-list {
   @include clearfix;
 
   list-style: none;
