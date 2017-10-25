@@ -12,8 +12,9 @@ Author URI: https://depone.de
 
 // 1. Vendors
 @import
+  'vendor/cookieconsent',
   'vendor/normalize',
-  'vendor/cookieconsent';
+  'vendor/prism';
 
 // 2. Configuration and helpers
 @import
@@ -489,100 +490,6 @@ pre,
 code {
   font-family: 'Source Code Pro Regular', monospace;
   font-size: 92%;
-}
-
-/* Darstellung des Codes / prism.js */
-code[class*="language-"],
-pre[class*="language-"] {
-  border-radius: $border-radius;
-  color: black;
-  direction: ltr;
-  font-family: 'Source Code Pro Regular', monospace;
-  font-size: 92%;
-  hyphens: none;
-  tab-size: 4;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-  padding: rem(16px);
-  margin: rem(8px) 0;
-  overflow: auto;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-  background-color: $grey;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: rem(2px);
-  border-radius: $border-radius;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-  color: $comment;
-}
-
-.token.punctuation {
-  color: $punctuation;
-}
-
-.namespace {
-  opacity: 0.7;
-}
-
-.token.property,
-.token.tag,
-.token.boolean,
-.token.number {
-  color: $property;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string {
-  color: $selector;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string {
-  color: $operator;
-  background: $operator-background;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.keyword,
-.token.function,
-.token.constant {
-  color: $function;
-}
-
-.token.regex,
-.token.important,
-.token.variable {
-  color: $regex;
-}
-
-.token.important,
-.token.deliminator {
-  font-family: "Source Sans Pro Semibold", sans-serif;
-  font-weight: normal;
-}
-
-.token.entity {
-    cursor: help;
 }
 
 p.postmetadata {
