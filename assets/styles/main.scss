@@ -168,11 +168,13 @@ nav#mainnav ul li a {
   @include breakpoint($medium) {
     padding: 0 rem(5px);
   }
+}
 
-  &:hover,
-  &:focus {
-    color: $brand-color;
-  }
+nav#mainnav ul li.current_page_item a,
+nav#mainnav ul li.current_page_parent a,
+nav#mainnav ul li a:hover,
+nav#mainnav ul li a:focus {
+  color: $brand-color;
 }
 
 nav#mainnav ul li ul.children {
