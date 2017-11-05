@@ -8,10 +8,6 @@
 
 			<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zu %s', ''), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h2>
-        <?php if (has_post_thumbnail()) { ?>
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>"><?php the_post_thumbnail('medium', array('class' => 'start')); ?></a>
-        <?php } else { ?>
-        <?php } ?>
 				<div class="entry">
 					<?php the_content(); ?>
 				</div><!-- entry -->
