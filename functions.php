@@ -171,14 +171,16 @@ function my_fields($fields) {
 }
 add_filter('comment_form_default_fields','my_fields');
 
-//Adding the Open Graph in the Language Attributes
+/**
+* Provide Meta-Tags for shareable content
+*/
+  // Add Open Graph to the language attributes
   function add_opengraph_doctype( $output ) {
     return $output . ' prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"';
   }
   add_filter('language_attributes', 'add_opengraph_doctype');
 
-  //Lets add Open Graph Meta Info
-
+  // Add Open Graph Meta Info
   function insert_fb_in_head() {
     global $post;
     if ( !is_singular()) //if it is not a post or a page
@@ -189,8 +191,8 @@ add_filter('comment_form_default_fields','my_fields');
       echo '<meta property="og:url" content="' . get_permalink() . '"/>';
       echo '<meta property="og:site_name" content="DEPONE Netzgestaltung"/>';
       echo '<meta property="og:description" content="' . get_the_excerpt() . '"/>';
-    if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-      $default_image="https://depone.net/apple-touch-icon-precomposed.png"; //replace this with a default image on your server or an image in your media library
+    if(!has_post_thumbnail( $post->ID )) { // if the post does not have a featured image, use a default image instead
+      $default_image="https://depone.net/apple-touch-icon-precomposed.png";
       echo '<meta property="og:image" content="' . $default_image . '"/>';
     }
     else{
@@ -206,21 +208,13 @@ add_filter('comment_form_default_fields','my_fields');
     global $post;
     if ( !is_singular()) //if it is not a post or a page
       return;
-      echo '<meta name="twitter:url" content="' . get_permalink() . '">';
-      echo '<meta name="twitter:site" content="depone">';
-      echo '<meta name="twitter:domain" content="depone.net">';
-      echo '<meta name="twitter:card" content="summary_large_image">';
+      if(has_post_thumbnail( $post->ID )) {
+        echo '<meta name="twitter:card" content="summary_large_image">';
+      } else {
+        echo '<meta name="twitter:card" content="summary">';
+      }
       echo '<meta name="twitter:creator" content="@depone">';
-      echo '<meta name="twitter:title" content="' . get_the_title() . '">';
-      echo '<meta name="twitter:description" content="' . get_the_excerpt() . '">';
-    if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
-      $fallback_image="https://depone.net/apple-touch-icon-precomposed.png"; //replace this with a default image on your server or an image in your media library
-      echo '<meta name="twitter:image:src" content="' . $fallback_image . '"/>';
-    }
-    else{
-      $post_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
-      echo '<meta name="twitter:image:src" content="' . esc_attr( $post_thumbnail[0] ) . '"/>';
-    }
+      echo '<meta name="twitter:site" content="@depone">';
     echo "";
   }
   add_action( 'wp_head', 'insert_twitter_cards', 5 );
