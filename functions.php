@@ -55,26 +55,11 @@
  * Register Scripts
 **/
   function dpng_register_scripts() {
-    //global.min.js and modernizr.min.js– dependent on jQuery
     wp_register_script(
-      'prism', //handle
-      get_template_directory_uri() . '/assets/js/prism.js', //source
-      array('jquery'), //dependencies
-      filemtime( get_template_directory() . '/assets/js/prism.js' ), // version
-      true //run in footer
-    );
-    wp_register_script(
-      'modernizr', //handle
-      get_template_directory_uri() . '/assets/js/modernizr.js', //source
-      array('jquery'), //dependencies
-      filemtime( get_template_directory() . '/assets/js/modernizr.js' ), // version
-      true //run in footer
-    );
-    wp_register_script(
-      'cookieconsent', //handle
-      get_template_directory_uri() . '/assets/js/cookieconsent.min.js', //source
-      array('jquery'), //dependencies
-      filemtime( get_template_directory() . '/assets/js/cookieconsent.min.js' ), // version
+      'global', //handle
+      get_template_directory_uri() . '/assets/js/global.min.js', //source
+      null, // dependencies
+      filemtime( get_template_directory() . '/assets/js/global.min.js' ), // version
       true //run in footer
     );
   }
@@ -82,9 +67,11 @@
 
   function dpng_enqueue_scripts(){
     if (!is_admin()):
-      wp_enqueue_script('prism'); //global.min.js
-      wp_enqueue_script('modernizr'); //modernizr.js
-      wp_enqueue_script('cookieconsent'); //cookieconsent.min.js
+      // Create variable with url of template directory to be used in javascript
+      $themeParams = array( 'templateURL' => get_bloginfo('template_url') );
+      wp_localize_script( 'global', 'themeParams', $themeParams );
+      // Enqueue Script
+      wp_enqueue_script('global'); //global.min.js
     endif; //!is_admin
   }
   add_action('wp_print_scripts', 'dpng_enqueue_scripts');

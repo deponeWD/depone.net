@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
+<html class="ie ie7" <?php language_attributes(); ?> class="no-js">
 <![endif]-->
 <!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
+<html class="ie ie8" <?php language_attributes(); ?> class="no-js">
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> class="no-js">
 <!--<![endif]-->
 
 <head>
-<meta charset="<?php bloginfo('charset'); ?>" >
+<meta charset="<?php bloginfo('charset'); ?>">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
@@ -44,7 +44,25 @@
 </script>
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
-
+<?php if (is_front_page()) { ?>
+  <noscript>
+    <style>
+      /* TODO: keep in sync with .no-svg .social-icon */
+      .no-js header h1 svg {
+        background-image: url('./wp-content/themes/netz/assets/img/depone.png');
+      }
+    </style>
+  </noscript>
+<?php } else { ?>
+  <noscript>
+    <style>
+      /* TODO: keep in sync with .no-svg .social-icon */
+      .no-js header h1 svg {
+        background-image: url('../wp-content/themes/netz/assets/img/depone.png');
+      }
+    </style>
+  </noscript>
+<?php } ?>
 <?php wp_head(); ?>
 </head>
 
@@ -54,13 +72,21 @@
 
 <header role="banner">
     <h1>
-      <?php if (is_page_template('start.php')) {
-        echo '<span class="depone">DEPONE</span> <span class="netzgestaltung">Netzgestaltung</span>';
-      } else {
-        echo '<a href="';
-        echo esc_url( home_url('/') );
-        echo '"><span class="depone">DEPONE</span> <span class="netzgestaltung">Netzgestaltung</span></a>';
-      } ?>
+
+      <?php
+        if (!is_front_page()) {
+          echo '<a href="';
+            echo esc_url( home_url('/') );
+          echo '">';
+        }
+          echo "<svg viewBox='0 0 250.11 79.32'>";
+            echo "<use xlink:href='#depone-logo'></use>";
+          echo "</svg>";
+          echo '<span class="netzgestaltung">Netzgestaltung</span>';
+        if (!is_front_page()) {
+          echo '</a>';
+        }
+      ?>
     </h1>
     <h2 class="description">
         <?php bloginfo('description'); ?>

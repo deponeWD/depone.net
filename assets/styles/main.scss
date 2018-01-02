@@ -89,35 +89,17 @@ header h1 a:visited {
   margin: 0;
   opacity: 1;
   text-decoration: none;
-  transition: opacity 0.5s ease-out;
+  transition: color 0.5s ease-out;
   width: 100%;
 
   &:hover,
   &:focus {
-    opacity: 0.7;
+    color: $brand-color;
   }
 }
 
-header h1 span.depone {
-  background-attachment: scroll;
-  background-color: $background;
-  background-image: url(assets/img/depone.png);
-  background-position: top center;
-  background-repeat: no-repeat;
-  display: block;
-  height: rem(90px);
-  // margin-bottom: rem(10px);
-  width: 100%;
-  text-indent: -999em;
-}
-
-.svg header h1 span.depone {
-  background-image: url(assets/img/depone.svg);
-}
-
-.svg header h1 a:hover,
-.svg header h1 a:focus {
-  opacity: 0.7;
+.no-svg header h1 svg {
+  background-image: url('./assets/img/depone.png');
 }
 
 header .description {
