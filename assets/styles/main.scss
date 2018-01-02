@@ -55,6 +55,12 @@ body {
   }
 }
 
+body {
+  > svg {
+    display: block;
+  }
+}
+
 section#page {
   margin: 0 auto;
   overflow: hidden;
