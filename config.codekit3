@@ -7,7 +7,7 @@
 		"uuidString": "D5A9BEB0-7E8E-43EF-9E58-05F3A67C4741"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26330",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -714,6 +714,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/serviceworker.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/serviceworker.min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/styles\/abstracts\/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -990,6 +1000,13 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/offline.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/offline.html",
+		"oF": 0
+		},
 	"\/page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1070,6 +1087,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1633,6 +1651,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

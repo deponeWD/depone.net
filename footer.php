@@ -22,7 +22,11 @@
 </footer><!-- footer -->
 </section><!-- page -->
 
-<?php wp_footer(); ?>
-
+  <?php wp_footer(); ?>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/serviceworker.min.js', {scope: './'});
+    }
+  </script>
 </body>
 </html>
