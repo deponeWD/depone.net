@@ -31,7 +31,7 @@
 <!-- or, set /favicon.ico for IE10 win -->
 <meta name="msapplication-TileColor" content="#D83434">
 <meta name="msapplication-TileImage" content="<?php echo esc_url( home_url( '/tileicon.png' ) ); ?>">
-
+<link rel="manifest" href="<?php echo esc_url( home_url('./wp-content/themes/netz/manifest.json') ); ?>">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" >
 
 <!--[if IE]>
