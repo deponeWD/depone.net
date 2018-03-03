@@ -1,0 +1,16 @@
+{
+    "lang": "de",
+    "short_name": "Depone",
+    "name": "Depone Netzgestaltung",
+    "icons": [
+        {
+            "src": "/touchicon.png",
+            "sizes": "241x241",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "minimal-ui",
+    "background_color": "#fafafa",
+    "theme_color": "#fafafa"
+}

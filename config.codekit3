@@ -724,6 +724,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/serviceworker.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/serviceworker.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/styles\/abstracts\/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -999,6 +1009,14 @@
 		"oA": 2,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/offline.html": {
 		"cB": 0,
