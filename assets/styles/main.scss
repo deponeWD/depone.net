@@ -38,6 +38,10 @@ html {
   box-sizing: inherit;
 }
 
+.offline body {
+  border-top: rem(5px) solid $grey;
+}
+
 body {
   background-color: $background;
   border-top: rem(5px) solid $brand-color;
