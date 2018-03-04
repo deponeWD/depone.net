@@ -24,7 +24,7 @@
   <?php wp_footer(); ?>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./serviceworker.min.js', {scope: './'});
+      navigator.serviceWorker.register('/serviceworker.min.js', {scope: './'});
     }
   </script>
 </body>
