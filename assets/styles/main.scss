@@ -38,10 +38,6 @@ html {
   box-sizing: inherit;
 }
 
-.offline body {
-  border-top: rem(5px) solid $grey;
-}
-
 body {
   background-color: $background;
   border-top: rem(5px) solid $brand-color;
@@ -57,13 +53,11 @@ body {
   @include breakpoint($medium) {
     border-top: rem(3px) solid $brand-color;
   }
-}
 
-// body {
-//   > svg {
-//     display: block;
-//   }
-// }
+  .offline & {
+    border-top: rem(5px) solid $grey;
+  }
+}
 
 section#page {
   margin: 0 auto;
