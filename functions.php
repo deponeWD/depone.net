@@ -39,7 +39,8 @@
       'main-stylesheet', //handle
       get_template_directory_uri() . '/style.css', //source
       null, //no dependencies
-      filemtime( get_stylesheet_directory() . '/style.css' ) //version
+      null // remove Version for serviceWorker
+      // filemtime( get_stylesheet_directory() . '/style.css' ) //version
     );
   }
   add_action('init', 'dpng_register_styles');
@@ -59,7 +60,8 @@
       'global', //handle
       get_template_directory_uri() . '/assets/js/global.min.js', //source
       null, // dependencies
-      filemtime( get_template_directory() . '/assets/js/global.min.js' ), // version
+      null, // remove Version for serviceWorker
+      // filemtime( get_template_directory() . '/assets/js/global.min.js' ), // version
       true //run in footer
     );
   }
