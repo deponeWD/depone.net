@@ -25,6 +25,7 @@ function updateStaticCache() {
         .then( cache => {
             // These items won't block the installation of the Service Worker
             cache.addAll([
+                'wp-content/uploads/2008/06/depone-16x9-640x360.jpg',
                 themePath + 'assets/img/depone.svg',
 								themePath + 'assets/img/depone.png'
             ].concat(offlinePages));
