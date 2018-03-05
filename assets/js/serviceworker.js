@@ -13,11 +13,11 @@ const cacheList = [
 ];
 
 const offlinePages = [
-    '/',
-    '/projekte/',
-    '/infos/',
-    '/kontakt/',
-    '/blog/'
+    './',
+    './projekte/',
+    './infos/',
+    './kontakt/',
+    './blog/'
 ];
 
 function updateStaticCache() {
