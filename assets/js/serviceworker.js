@@ -6,12 +6,11 @@ const pagesCacheName = 'pages';
 const imagesCacheName = 'images';
 const themePath = 'wp-content/themes/netz/';
 
-// const offlineFundamentals = [
-// 	'./',
-// 	themePath + 'style.css',
-// 	themePath + 'assets/js/global.min.js',
-// 	themePath + 'offline.html'
-// ];
+const cacheList = [
+    staticCacheName,
+    pagesCacheName,
+    imagesCacheName
+];
 
 const offlinePages = [
     '/',
