@@ -119,7 +119,7 @@ self.addEventListener('fetch', event => {
                 .catch( () => {
                     // CACHE or FALLBACK
                     return caches.match(request)
-                        .then( response => response || caches.match(theme_path + 'offline.html') );
+                        .then( response => response || caches.match(themePath + 'offline.html') );
                 })
         );
         return;
