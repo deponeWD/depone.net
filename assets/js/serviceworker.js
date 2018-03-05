@@ -1,3 +1,5 @@
+'use strict';
+
 const version = 'v0.02::';
 const staticCacheName = version + 'static';
 const pagesCacheName = 'pages';
@@ -89,7 +91,7 @@ self.addEventListener('fetch', event => {
     let url = new URL(request.url);
 
     // Ignore requests to some directories
-    if (request.url.includes(/wp-admin/) || request.url.includes(/preview=true/)) {
+    if (request.url.includes('/wp-admin/') || request.url.includes('/preview=true/')) {
         return;
     }
 
