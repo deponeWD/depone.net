@@ -4,47 +4,79 @@
 
 @font-face {
   font-family: Source Sans Pro Semibold;
-  src: url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot");
-  src:
-    url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Semibold.otf.woff") format("woff"),
-    url("./assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Semibold.ttf.woff") format("truetype"),
-    url("./assets/fonts/source-sans-pro/SVG/SourceSansPro-Semibold.svg#Source Sans Pro Regular") format("svg");
+  src: url(./assets/fonts/SourceSansPro-Semibold-subset.woff2) format("woff2"), url(./assets/fonts/SourceSansPro-Semibold-subset.woff) format("woff");
+  unicode-range: U+A,U+20-24,U+26-57,U+59,U+5A,U+5F,U+61-7D,U+A0,U+AB,U+B7,U+BB,U+C4,U+DC,U+DF,U+E4,U+F6,U+FC,U+2013,U+2014,U+2019,U+201C,U+201E,U+2039,U+203A,U+F8FF;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Source Sans Pro Regular;
-  src: url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot");
-  src:
-    url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Regular.otf.woff") format("woff"),
-    url("./assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Regular.ttf.woff") format("truetype"),
-    url("./assets/fonts/source-sans-pro/SVG/SourceSansPro-Regular.svg#Source Sans Pro Regular") format("svg");
+  src: url(./assets/fonts/SourceSansPro-Regular-subset.woff2) format("woff2"), url(./assets/fonts/SourceSansPro-Regular-subset.woff) format("woff");
+  unicode-range: U+A,U+20-24,U+26-57,U+59,U+5A,U+5F,U+61-7D,U+A0,U+AB,U+B7,U+BB,U+C4,U+DC,U+DF,U+E4,U+F6,U+FC,U+2013,U+2014,U+2019,U+201C,U+201E,U+2039,U+203A,U+F8FF;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Source Sans Pro Italic;
-  src: url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-It.eot");
-  src:
-    url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-It.eot?#iefix") format("embedded-opentype"),
-    url("./assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-It.otf.woff") format("woff"),
-    url("./assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-It.ttf.woff") format("truetype"),
-    url("./assets/fonts/source-sans-pro/SVG/SourceSansPro-It.svg#Source Sans Pro Italic") format("svg");
+  src: url(./assets/fonts/SourceSansPro-It-subset.woff2) format("woff2"), url(./assets/fonts/SourceSansPro-It-subset.woff) format("woff");
+  unicode-range: U+A,U+20-24,U+26-57,U+59,U+5A,U+5F,U+61-7D,U+A0,U+AB,U+B7,U+BB,U+C4,U+DC,U+DF,U+E4,U+F6,U+FC,U+2013,U+2014,U+2019,U+201C,U+201E,U+2039,U+203A,U+F8FF;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Source Code Pro Regular;
-  src: url("./assets/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot");
-  src: url("./assets/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot?#iefix") format("embedded-opentype"),
-  url("./assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff") format("woff"),
-  url("./assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Regular.ttf.woff") format("truetype"),
-  url("./assets/fonts/source-code-pro/SVG/SourceCodePro-Regular.svg#Source Sans Pro Regular") format("svg");
+  src: url(./assets/fonts/SourceCodePro-Regular-subset.woff2) format("woff2"), url(./assets/fonts/SourceCodePro-Regular-subset.woff) format("woff");
+  unicode-range: U+A,U+20-24,U+26-57,U+59,U+5A,U+5F,U+61-7D,U+A0,U+AB,U+B7,U+BB,U+C4,U+DC,U+DF,U+E4,U+F6,U+FC,U+2013,U+2014,U+2019,U+201C,U+201E,U+2039,U+203A,U+F8FF;
   font-weight: normal;
   font-style: normal;
 }
+
+// @font-face {
+//   font-family: Source Sans Pro Semibold;
+//   src: url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot");
+//   src:
+//     url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Semibold.otf.woff") format("woff"),
+//     url("./assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Semibold.ttf.woff") format("truetype"),
+//     url("./assets/fonts/source-sans-pro/SVG/SourceSansPro-Semibold.svg#Source Sans Pro Regular") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: Source Sans Pro Regular;
+//   src: url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot");
+//   src:
+//     url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Regular.otf.woff") format("woff"),
+//     url("./assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Regular.ttf.woff") format("truetype"),
+//     url("./assets/fonts/source-sans-pro/SVG/SourceSansPro-Regular.svg#Source Sans Pro Regular") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: Source Sans Pro Italic;
+//   src: url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-It.eot");
+//   src:
+//     url("./assets/fonts/source-sans-pro/EOT/SourceSansPro-It.eot?#iefix") format("embedded-opentype"),
+//     url("./assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-It.otf.woff") format("woff"),
+//     url("./assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-It.ttf.woff") format("truetype"),
+//     url("./assets/fonts/source-sans-pro/SVG/SourceSansPro-It.svg#Source Sans Pro Italic") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: Source Code Pro Regular;
+//   src: url("./assets/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot");
+//   src: url("./assets/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot?#iefix") format("embedded-opentype"),
+//   url("./assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff") format("woff"),
+//   url("./assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Regular.ttf.woff") format("truetype"),
+//   url("./assets/fonts/source-code-pro/SVG/SourceCodePro-Regular.svg#Source Sans Pro Regular") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }
