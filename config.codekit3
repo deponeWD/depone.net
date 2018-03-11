@@ -612,20 +612,6 @@
 		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-SemiboldIt.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceCodePro-Regular-subset.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceCodePro-Regular-subset.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/SourceCodePro-Regular-subset.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceCodePro-Regular-subset.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/SourceSansPro-It-subset.woff": {
 		"cB": 0,
 		"ft": 8192,
