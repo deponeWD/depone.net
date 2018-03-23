@@ -26,11 +26,15 @@
 
 		<?php while (have_posts()) : the_post(); ?>
 		<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-				<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>"><?php the_post_thumbnail('medium', array('class' => 'start')); ?></a>
+				<?php if ( has_post_thumbnail() ) { ?>
+					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>">
+						<?php the_post_thumbnail('medium', array('class' => 'start')); ?>
+					</a>
+				<?php } ?>
 				<h3 class="start"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h3>
 
 				<div class="entry">
-					<p><?php echo get_the_excerpt(); ?> <a class="weiterlesen" href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>">&rsaquo; weiterlesen</a></p>
+					<p><?php echo get_the_excerpt(); ?></p>
 				</div><!-- entry -->
 			</article><!-- post -->
 
