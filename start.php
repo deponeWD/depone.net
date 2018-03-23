@@ -22,15 +22,10 @@
     	<?php if (have_posts()) : /* Abschnitt: Blog */ ?>
 
         <h2 class="section" ><a class="weiterlesen" href="<?php echo esc_url( home_url( '/blog/' ) ); ?>" title="Link ins Blog" >Blog</a></h2>
-        <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("showposts=4&paged=$paged"); ?>
+        <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("showposts=6&paged=$paged"); ?>
 
 		<?php while (have_posts()) : the_post(); ?>
 		<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-				<?php if ( has_post_thumbnail() ) { ?>
-					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>">
-						<?php the_post_thumbnail('medium', array('class' => 'start')); ?>
-					</a>
-				<?php } ?>
 				<h3 class="start"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf(__('Link zum Blogeintrag &rsaquo;%s&lsaquo;', ''), the_title_attribute('echo=0')); ?>"><?php the_title(); ?></a></h3>
 
 				<div class="entry">
