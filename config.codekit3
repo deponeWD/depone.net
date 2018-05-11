@@ -7,7 +7,7 @@
 		"uuidString": "D5A9BEB0-7E8E-43EF-9E58-05F3A67C4741"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -612,6 +612,62 @@
 		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-SemiboldIt.ttf.woff",
 		"oF": 0
 		},
+	"\/assets\/fonts\/SourceCodePro-Regular-subset.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceCodePro-Regular-subset.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceCodePro-Regular-subset.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceCodePro-Regular-subset.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceSansPro-It-subset.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceSansPro-It-subset.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceSansPro-It-subset.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceSansPro-It-subset.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceSansPro-Regular-subset.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceSansPro-Regular-subset.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceSansPro-Regular-subset.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceSansPro-Regular-subset.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceSansPro-Semibold-subset.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceSansPro-Semibold-subset.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/SourceSansPro-Semibold-subset.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/SourceSansPro-Semibold-subset.woff2",
+		"oF": 0
+		},
 	"\/assets\/img\/depone.png": {
 		"ft": 32768,
 		"iS": 4193,
@@ -1097,7 +1153,8 @@
 	"creationDate": 507048854,
 	"displayValue": "netz",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/assets\/img\/touchicon.png"
+	"iconImageName": "\/assets\/img\/touchicon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2900,6 +2957,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
