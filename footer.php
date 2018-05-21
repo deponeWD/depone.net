@@ -14,7 +14,7 @@
     <ul class="third" >
         <li><a href="<?php echo esc_url( home_url( '/kontakt/' ) ); ?>" title="Link zur Kontaktseite" >Kontakt</a></li>
         <li><a href="<?php echo esc_url( home_url( '/infos/impressum/' ) ); ?>" title="Link zum Impressum" >Impressum</a></li>
-        <li><a href="<?php echo esc_url( home_url( '/infos/impressum/#Datenschutz' ) ); ?>" title="Link zum Datenschutzhinweis im Impressum" >Datenschutz</a></li>
+        <li><a href="<?php echo esc_url( home_url( '/infos/datenschutzerklaerung' ) ); ?>" title="Link zu meiner Datenschutzerklärung" >Datenschutz</a></li>
         <li><a href="<?php echo esc_url( home_url( '/feed' ) ); ?>" title="Link zum RSS-Feed des Blogs" >RSS</a></li>
     </ul>
     <div class="suchfeld"><?php get_search_form(); ?></div>

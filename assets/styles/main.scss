@@ -733,6 +733,11 @@ a.comment-reply-link {
   z-index: 1;
 }
 
+#respond .comment-form-cookies-consent label {
+  text-transform: none;
+  padding-left: $single-space;
+}
+
 p.comment-form-author span.required,
 p.comment-form-email span.required {
   display: inline;
