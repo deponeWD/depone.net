@@ -40,7 +40,7 @@
 
 <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <script type="text/javascript">
-    window.cookieconsent_options = {"message":"Diese Webseite verwendet Cookies.","dismiss":"Ok.","learnMore":"Zum Datenschutzhinweis.","link":"https://depone.net/infos/impressum/#Datenschutz","theme":false};
+    window.cookieconsent_options = {"message":"Diese Webseite verwendet Cookies.","dismiss":"Ok.","learnMore":"Zum Datenschutzhinweis.","link":"https://depone.net/infos/datenschutzerklaerung","theme":false};
 </script>
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
