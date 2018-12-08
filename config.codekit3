@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,790 +7,790 @@
 		"uuidString": "D5A9BEB0-7E8E-43EF-9E58-05F3A67C4741"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/404.php": {
+	"/404.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/404.php",
+		"oAP": "/404.php",
 		"oF": 0
 		},
-	"\/archive.php": {
+	"/archive.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/archive.php",
+		"oAP": "/archive.php",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Black.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-Black.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Black.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-Black.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Bold.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Bold.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-Bold.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-ExtraLight.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-ExtraLight.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-ExtraLight.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-ExtraLight.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Light.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-Light.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Light.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-Light.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Medium.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-Medium.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Medium.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-Medium.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Regular.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Regular.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-Regular.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Semibold.eot": {
+	"/assets/fonts/source-code-pro/EOT/SourceCodePro-Semibold.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/EOT\/SourceCodePro-Semibold.eot",
+		"oAP": "/assets/fonts/source-code-pro/EOT/SourceCodePro-Semibold.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Black.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-Black.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Black.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-Black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Bold.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-Bold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Bold.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-Bold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-ExtraLight.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-ExtraLight.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-ExtraLight.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-ExtraLight.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Light.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-Light.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Light.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-Light.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Medium.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-Medium.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Medium.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-Medium.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Regular.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-Regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Regular.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-Regular.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Semibold.svg": {
+	"/assets/fonts/source-code-pro/SVG/SourceCodePro-Semibold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/SVG\/SourceCodePro-Semibold.svg",
+		"oAP": "/assets/fonts/source-code-pro/SVG/SourceCodePro-Semibold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Black.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Black.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Black.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Black.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Bold.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Bold.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Bold.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Bold.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-ExtraLight.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-ExtraLight.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-ExtraLight.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-ExtraLight.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Light.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Light.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Light.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Light.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Medium.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Medium.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Medium.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Medium.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Regular.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Regular.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Semibold.otf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Semibold.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/OTF\/SourceCodePro-Semibold.otf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Semibold.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Black.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Black.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Black.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Black.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Bold.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Bold.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Bold.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Bold.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-ExtraLight.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-ExtraLight.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-ExtraLight.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-ExtraLight.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Light.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Light.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Light.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Light.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Medium.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Medium.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Medium.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Medium.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Regular.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Regular.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Regular.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Regular.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Semibold.ttf.woff": {
+	"/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Semibold.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-code-pro\/WOFF\/TTF\/SourceCodePro-Semibold.ttf.woff",
+		"oAP": "/assets/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Semibold.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Black.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-Black.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Black.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-Black.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-BlackIt.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-BlackIt.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-BlackIt.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-BlackIt.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Bold.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-Bold.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Bold.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-Bold.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-BoldIt.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-BoldIt.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-BoldIt.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-BoldIt.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-ExtraLight.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-ExtraLight.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-ExtraLight.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-ExtraLight.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-ExtraLightIt.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-ExtraLightIt.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-ExtraLightIt.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-ExtraLightIt.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-It.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-It.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-It.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-It.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Light.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-Light.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Light.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-Light.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-LightIt.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-LightIt.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-LightIt.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-LightIt.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Regular.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Regular.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-Regular.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Semibold.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-Semibold.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-Semibold.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-SemiboldIt.eot": {
+	"/assets/fonts/source-sans-pro/EOT/SourceSansPro-SemiboldIt.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/EOT\/SourceSansPro-SemiboldIt.eot",
+		"oAP": "/assets/fonts/source-sans-pro/EOT/SourceSansPro-SemiboldIt.eot",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Black.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-Black.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Black.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-Black.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-BlackIt.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-BlackIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-BlackIt.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-BlackIt.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Bold.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-Bold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Bold.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-Bold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-BoldIt.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-BoldIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-BoldIt.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-BoldIt.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-ExtraLight.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-ExtraLight.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-ExtraLight.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-ExtraLight.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-ExtraLightIt.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-ExtraLightIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-ExtraLightIt.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-ExtraLightIt.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-It.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-It.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-It.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-It.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Light.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-Light.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Light.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-Light.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-LightIt.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-LightIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-LightIt.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-LightIt.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Regular.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-Regular.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Regular.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-Regular.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Semibold.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-Semibold.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-Semibold.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-Semibold.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-SemiboldIt.svg": {
+	"/assets/fonts/source-sans-pro/SVG/SourceSansPro-SemiboldIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/SVG\/SourceSansPro-SemiboldIt.svg",
+		"oAP": "/assets/fonts/source-sans-pro/SVG/SourceSansPro-SemiboldIt.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Black.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Black.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Black.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Black.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-BlackIt.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-BlackIt.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-BlackIt.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-BlackIt.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Bold.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Bold.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Bold.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Bold.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-BoldIt.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-BoldIt.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-BoldIt.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-BoldIt.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-ExtraLight.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-ExtraLight.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-ExtraLight.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-ExtraLight.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-ExtraLightIt.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-ExtraLightIt.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-ExtraLightIt.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-ExtraLightIt.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-It.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-It.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-It.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-It.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Light.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Light.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Light.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Light.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-LightIt.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-LightIt.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-LightIt.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-LightIt.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Regular.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Regular.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Regular.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Regular.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Semibold.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Semibold.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-Semibold.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-Semibold.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-SemiboldIt.otf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-SemiboldIt.otf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/OTF\/SourceSansPro-SemiboldIt.otf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/OTF/SourceSansPro-SemiboldIt.otf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Black.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Black.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Black.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Black.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-BlackIt.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-BlackIt.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-BlackIt.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-BlackIt.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Bold.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Bold.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Bold.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Bold.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-BoldIt.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-BoldIt.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-BoldIt.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-BoldIt.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-ExtraLight.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-ExtraLight.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-ExtraLight.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-ExtraLight.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-ExtraLightIt.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-ExtraLightIt.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-ExtraLightIt.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-ExtraLightIt.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-It.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-It.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-It.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-It.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Light.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Light.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Light.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Light.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-LightIt.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-LightIt.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-LightIt.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-LightIt.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Regular.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Regular.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Regular.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Regular.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Semibold.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Semibold.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-Semibold.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-Semibold.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-SemiboldIt.ttf.woff": {
+	"/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-SemiboldIt.ttf.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/source-sans-pro\/WOFF\/TTF\/SourceSansPro-SemiboldIt.ttf.woff",
+		"oAP": "/assets/fonts/source-sans-pro/WOFF/TTF/SourceSansPro-SemiboldIt.ttf.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceCodePro-Regular-subset.woff": {
+	"/assets/fonts/SourceCodePro-Regular-subset.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceCodePro-Regular-subset.woff",
+		"oAP": "/assets/fonts/SourceCodePro-Regular-subset.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceCodePro-Regular-subset.woff2": {
+	"/assets/fonts/SourceCodePro-Regular-subset.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceCodePro-Regular-subset.woff2",
+		"oAP": "/assets/fonts/SourceCodePro-Regular-subset.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceSansPro-It-subset.woff": {
+	"/assets/fonts/SourceSansPro-It-subset.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceSansPro-It-subset.woff",
+		"oAP": "/assets/fonts/SourceSansPro-It-subset.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceSansPro-It-subset.woff2": {
+	"/assets/fonts/SourceSansPro-It-subset.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceSansPro-It-subset.woff2",
+		"oAP": "/assets/fonts/SourceSansPro-It-subset.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceSansPro-Regular-subset.woff": {
+	"/assets/fonts/SourceSansPro-Regular-subset.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceSansPro-Regular-subset.woff",
+		"oAP": "/assets/fonts/SourceSansPro-Regular-subset.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceSansPro-Regular-subset.woff2": {
+	"/assets/fonts/SourceSansPro-Regular-subset.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceSansPro-Regular-subset.woff2",
+		"oAP": "/assets/fonts/SourceSansPro-Regular-subset.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceSansPro-Semibold-subset.woff": {
+	"/assets/fonts/SourceSansPro-Semibold-subset.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceSansPro-Semibold-subset.woff",
+		"oAP": "/assets/fonts/SourceSansPro-Semibold-subset.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/SourceSansPro-Semibold-subset.woff2": {
+	"/assets/fonts/SourceSansPro-Semibold-subset.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/SourceSansPro-Semibold-subset.woff2",
+		"oAP": "/assets/fonts/SourceSansPro-Semibold-subset.woff2",
 		"oF": 0
 		},
-	"\/assets\/img\/depone.png": {
+	"/assets/img/depone.png": {
 		"ft": 32768,
 		"iS": 4193,
 		"oA": 0,
-		"oAP": "\/assets\/img\/depone.png",
+		"oAP": "/assets/img/depone.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/depone.svg": {
+	"/assets/img/depone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/img\/depone.svg",
+		"oAP": "/assets/img/depone.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/touchicon.png": {
+	"/assets/img/touchicon.png": {
 		"ft": 32768,
 		"iS": 5826,
 		"oA": 0,
-		"oAP": "\/assets\/img\/touchicon.png",
+		"oAP": "/assets/img/touchicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/js\/base.js": {
+	"/assets/js/base.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/base-min.js",
+		"oAP": "/assets/js/base-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/cookieconsent.min.js": {
+	"/assets/js/cookieconsent.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/cookieconsent.min-min.js",
+		"oAP": "/assets/js/cookieconsent.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/global.js": {
+	"/assets/js/global.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/global.min.js",
+		"oAP": "/assets/js/global.min.js",
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/global.min.js": {
+	"/assets/js/global.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/global.min-min.js",
+		"oAP": "/assets/js/global.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/handle-svg.js": {
+	"/assets/js/handle-svg.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/handle-svg-min.js",
+		"oAP": "/assets/js/handle-svg-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/html5.js": {
+	"/assets/js/html5.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/html5-min.js",
+		"oAP": "/assets/js/html5-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/prism.js": {
+	"/assets/js/prism.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/prism-min.js",
+		"oAP": "/assets/js/prism-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/serviceworker.js": {
+	"/assets/js/serviceworker.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/serviceworker.min.js",
+		"oAP": "/assets/js/serviceworker.min.js",
 		"oF": 3,
 		"sC": 3,
 		"tS": 1
 		},
-	"\/assets\/js\/serviceworker.min.js": {
+	"/assets/js/serviceworker.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/serviceworker.min-min.js",
+		"oAP": "/assets/js/serviceworker.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/styles\/abstracts\/_functions.scss": {
+	"/assets/styles/abstracts/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -798,12 +798,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/_functions.css",
+		"oAP": "/assets/styles/abstracts/_functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/_mixins.scss": {
+	"/assets/styles/abstracts/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -811,12 +811,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/_mixins.css",
+		"oAP": "/assets/styles/abstracts/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/_variables.scss": {
+	"/assets/styles/abstracts/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -824,12 +824,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/_variables.css",
+		"oAP": "/assets/styles/abstracts/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_breakpoint.scss": {
+	"/assets/styles/abstracts/mixins/_breakpoint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -837,12 +837,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_breakpoint.css",
+		"oAP": "/assets/styles/abstracts/mixins/_breakpoint.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_clearfix.scss": {
+	"/assets/styles/abstracts/mixins/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -850,12 +850,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_clearfix.css",
+		"oAP": "/assets/styles/abstracts/mixins/_clearfix.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_content-column.scss": {
+	"/assets/styles/abstracts/mixins/_content-column.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -863,12 +863,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_content-column.css",
+		"oAP": "/assets/styles/abstracts/mixins/_content-column.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_font-size.scss": {
+	"/assets/styles/abstracts/mixins/_font-size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -876,12 +876,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_font-size.css",
+		"oAP": "/assets/styles/abstracts/mixins/_font-size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_font-stack.scss": {
+	"/assets/styles/abstracts/mixins/_font-stack.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -889,12 +889,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_font-stack.css",
+		"oAP": "/assets/styles/abstracts/mixins/_font-stack.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_font.scss": {
+	"/assets/styles/abstracts/mixins/_font.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -902,12 +902,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_font.css",
+		"oAP": "/assets/styles/abstracts/mixins/_font.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_make-visible.scss": {
+	"/assets/styles/abstracts/mixins/_make-visible.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -915,12 +915,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_make-visible.css",
+		"oAP": "/assets/styles/abstracts/mixins/_make-visible.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_viewport.scss": {
+	"/assets/styles/abstracts/mixins/_viewport.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -928,12 +928,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_viewport.css",
+		"oAP": "/assets/styles/abstracts/mixins/_viewport.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/abstracts\/mixins\/_visually-hidden.scss": {
+	"/assets/styles/abstracts/mixins/_visually-hidden.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -941,12 +941,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/abstracts\/mixins\/_visually-hidden.css",
+		"oAP": "/assets/styles/abstracts/mixins/_visually-hidden.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/base\/_typography.scss": {
+	"/assets/styles/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -954,12 +954,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/base\/_typography.css",
+		"oAP": "/assets/styles/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/components\/webmentions.scss": {
+	"/assets/styles/components/webmentions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -967,12 +967,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/components\/webmentions.css",
+		"oAP": "/assets/styles/components/webmentions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/main.scss": {
+	"/assets/styles/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -980,12 +980,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style.css",
+		"oAP": "/style.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/styles\/vendor\/_cookieconsent.scss": {
+	"/assets/styles/vendor/_cookieconsent.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -993,12 +993,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/vendor\/_cookieconsent.css",
+		"oAP": "/assets/styles/vendor/_cookieconsent.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/vendor\/_normalize.scss": {
+	"/assets/styles/vendor/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1006,12 +1006,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/vendor\/_normalize.css",
+		"oAP": "/assets/styles/vendor/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/styles\/vendor\/_prism.scss": {
+	"/assets/styles/vendor/_prism.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1019,128 +1019,128 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/vendor\/_prism.css",
+		"oAP": "/assets/styles/vendor/_prism.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/comments.php": {
+	"/comments.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/comments.php",
+		"oAP": "/comments.php",
 		"oF": 0
 		},
-	"\/contributors.txt": {
+	"/contributors.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/contributors.txt",
+		"oAP": "/contributors.txt",
 		"oF": 0
 		},
-	"\/footer.php": {
+	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/footer.php",
+		"oAP": "/footer.php",
 		"oF": 0
 		},
-	"\/functions.php": {
+	"/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/functions.php",
+		"oAP": "/functions.php",
 		"oF": 0
 		},
-	"\/header.php": {
+	"/header.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/header.php",
+		"oAP": "/header.php",
 		"oF": 0
 		},
-	"\/index.php": {
+	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.php",
+		"oAP": "/index.php",
 		"oF": 0
 		},
-	"\/manifest.json": {
+	"/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/manifest-min.json",
+		"oAP": "/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/offline.html": {
+	"/offline.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/offline.html",
+		"oAP": "/offline.html",
 		"oF": 0
 		},
-	"\/page.php": {
+	"/page.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page.php",
+		"oAP": "/page.php",
 		"oF": 0
 		},
-	"\/screenshot.png": {
+	"/screenshot.png": {
 		"ft": 32768,
 		"iS": 424972,
 		"oA": 0,
-		"oAP": "\/screenshot.png",
+		"oAP": "/screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/search.php": {
+	"/search.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/search.php",
+		"oAP": "/search.php",
 		"oF": 0
 		},
-	"\/searchform.php": {
+	"/searchform.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/searchform.php",
+		"oAP": "/searchform.php",
 		"oF": 0
 		},
-	"\/sidebar.php": {
+	"/sidebar.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/sidebar.php",
+		"oAP": "/sidebar.php",
 		"oF": 0
 		},
-	"\/single.php": {
+	"/single.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/single.php",
+		"oAP": "/single.php",
 		"oF": 0
 		},
-	"\/start.php": {
+	"/start.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/start.php",
+		"oAP": "/start.php",
 		"oF": 0
 		},
-	"\/style.css": {
+	"/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/style-min.css",
+		"oAP": "/style-min.css",
 		"oF": 0,
 		"oS": 0
 		}
@@ -1153,7 +1153,7 @@
 	"creationDate": 507048854,
 	"displayValue": "netz",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/assets\/img\/touchicon.png",
+	"iconImageName": "/assets/img/touchicon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -1161,141 +1161,94 @@
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1307,7 +1260,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1319,7 +1293,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1355,53 +1347,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1410,6 +1395,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -1767,6 +1753,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -1778,6 +1768,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -1823,6 +1817,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -1841,10 +1839,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2043,9 +2037,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2399,6 +2397,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2427,6 +2429,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2434,6 +2440,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 0,
@@ -2489,7 +2499,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2549,7 +2559,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/depone-mbp.local:8888\/dpng\/",
+	"externalServerAddress": "http://depone-mbp.local:8888/dpng/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2944,7 +2954,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -2963,7 +2972,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -2995,19 +3004,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3063,7 +3072,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3092,7 +3101,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3116,36 +3125,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3153,11 +3196,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3181,6 +3224,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3197,7 +3244,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3205,20 +3260,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3233,6 +3300,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3241,12 +3316,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3257,11 +3340,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3273,23 +3364,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3301,13 +3420,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }
