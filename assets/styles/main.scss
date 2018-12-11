@@ -261,6 +261,7 @@ h3.archive a, h3.start a {
 h4 {
   clear: both;
   font-family: "Source Sans Pro Semibold", sans-serif;
+  font-weight: normal;
   margin: rem(16px) 0 rem(8px);
 
   @include breakpoint($medium) {
