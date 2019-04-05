@@ -34,6 +34,10 @@
 <link rel="manifest" href="<?php echo esc_url( home_url('/wp-content/themes/netz/manifest.json') ); ?>">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" >
 
+<link rel="me" href="https://twitter.com/depone">
+<link rel="me" href="https://mastodon.social/@depone">
+<link rel="pgpkey" href="https://depone.net/daniel.asc">
+
 <!--[if IE]>
     <script src="<?php bloginfo(template_url); ?>/js/html5.js" ></script>
 <![endif]-->
