@@ -57,11 +57,11 @@
 **/
   function dpng_register_scripts() {
     wp_register_script(
-      'global', //handle
-      get_template_directory_uri() . '/assets/js/global.min.js', //source
+      'app', //handle
+      get_template_directory_uri() . '/assets/js/app.min.js', //source
       null, // dependencies
       null, // remove Version for serviceWorker
-      // filemtime( get_template_directory() . '/assets/js/global.min.js' ), // version
+      // filemtime( get_template_directory() . '/assets/js/app.min.js' ), // version
       true //run in footer
     );
   }

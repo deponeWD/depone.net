@@ -767,6 +767,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/js/app.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/app.min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
 	"/assets/js/base.js": {
 		"bF": 0,
 		"ft": 64,
@@ -774,28 +785,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/base-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/global.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/global.min.js",
-		"oF": 2,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/global.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/global.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
