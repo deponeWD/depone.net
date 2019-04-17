@@ -71,9 +71,9 @@
     if (!is_admin()):
       // Create variable with url of template directory to be used in javascript
       $themeParams = array( 'templateURL' => get_bloginfo('template_url') );
-      wp_localize_script( 'global', 'themeParams', $themeParams );
+      wp_localize_script( 'app', 'themeParams', $themeParams );
       // Enqueue Script
-      wp_enqueue_script('global'); //global.min.js
+      wp_enqueue_script('app'); //app.min.js
     endif; //!is_admin
   }
   add_action('wp_print_scripts', 'dpng_enqueue_scripts');
