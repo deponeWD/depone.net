@@ -778,17 +778,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/assets/js/cookieconsent.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/assets/js/cookieconsent.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/assets/js/global.js": {
 		"bF": 0,
 		"ft": 64,
@@ -818,17 +807,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/handle-svg-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/html5.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/assets/js/html5-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1059,19 +1037,6 @@
 		"oAP": "/style.css",
 		"oF": 2,
 		"oS": 3,
-		"uL": 1
-		},
-	"/assets/styles/vendor/_cookieconsent.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/styles/vendor/_cookieconsent.css",
-		"oF": 0,
-		"oS": 0,
 		"uL": 1
 		},
 	"/assets/styles/vendor/_normalize.scss": {

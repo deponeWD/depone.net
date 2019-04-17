@@ -38,15 +38,6 @@
 <link rel="me" href="https://mastodon.social/@depone">
 <link rel="pgpkey" href="https://depone.net/daniel.asc">
 
-<!--[if IE]>
-    <script src="<?php bloginfo(template_url); ?>/js/html5.js" ></script>
-<![endif]-->
-
-<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-<script type="text/javascript">
-    window.cookieconsent_options = {"message":"Diese Webseite verwendet Cookies.","dismiss":"Ok.","learnMore":"Zum Datenschutzhinweis.","link":"https://depone.net/infos/datenschutzerklaerung","theme":false};
-</script>
-
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php if (is_front_page()) { ?>
   <noscript>
