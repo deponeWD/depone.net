@@ -1,6 +1,6 @@
 'use strict';
 
-const version = 'v0.04::';
+const version = 'v0.05::';
 const staticCacheName = version + 'static';
 const pagesCacheName = 'pages';
 const imagesCacheName = 'images';
@@ -32,7 +32,7 @@ function updateStaticCache() {
             // These items must be cached for the Service Worker to complete installation
             return cache.addAll([
 							themePath + 'style.css',
-							themePath + 'assets/js/global.min.js',
+							themePath + 'assets/js/app.min.js',
 							themePath + 'offline.html'
             ]);
         });
