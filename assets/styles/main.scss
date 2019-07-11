@@ -899,6 +899,15 @@ footer ul.second {
   }
 }
 
+footer ul.first--centered {
+  text-align: center;
+
+  @include breakpoint($small) {
+    float: none;
+    width: 100%;
+  }
+}
+
 footer ul.third {
   @include breakpoint($small) {
     clear: both;
