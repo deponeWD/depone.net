@@ -7,14 +7,14 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: black;
 	background: none;
-	text-shadow: 0 1px white;
+	color: $text;
+	color: var(--color-text-default);
 	font-family: 'Source Code Pro Regular', monospace;
 	text-align: left;
 	white-space: pre;
-	word-spacing: normal;
 	word-break: normal;
+	word-spacing: normal;
 	word-wrap: normal;
 	line-height: 1.5;
 
@@ -30,14 +30,16 @@ pre[class*="language-"] {
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	background-color: $grey;
+	background-color: var(--color-prism-background);
 	text-shadow: none;
-	background: $grey;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	background-color: $grey;
+	background-color: var(--color-prism-background);
 	text-shadow: none;
-	background: $grey;
 }
 
 @media print {
@@ -56,7 +58,8 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: $grey;
+	background-color: $grey;
+	background-color: var(--color-prism-background);
 }
 
 /* Inline code */
@@ -71,10 +74,12 @@ pre[class*="language-"] {
 .token.doctype,
 .token.cdata {
 	color: $comment;
+	color: var(--color-prism-comment);
 }
 
 .token.punctuation {
 	color: $punctuation;
+	color: var(--color-prism-punctuation);
 }
 
 .namespace {
@@ -89,6 +94,7 @@ pre[class*="language-"] {
 .token.symbol,
 .token.deleted {
 	color: $property;
+	color: var(--color-prism-property);
 }
 
 .token.selector,
@@ -98,6 +104,7 @@ pre[class*="language-"] {
 .token.builtin,
 .token.inserted {
 	color: $selector;
+	color: var(--color-prism-selector);
 }
 
 .token.operator,
@@ -106,23 +113,24 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string {
 	color: $operator;
-	background: $operator-background;
+	color: var(--color-prism-operator);
+	background-color: $operator-background;
+	background-color: var(--color-prism-operator-background);
 }
 
 .token.atrule,
 .token.attr-value,
-.token.keyword {
-	color: $function;
-}
-
+.token.keyword,
 .token.function {
 	color: $function;
+	color: var(--color-prism-function);
 }
 
 .token.regex,
 .token.important,
 .token.variable {
 	color: $regex;
+	color: var(--color-prism-regex);
 }
 
 .token.important,

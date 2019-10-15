@@ -8,7 +8,8 @@
 
 $text: rgb(51,51,51) !default;
 $background: rgb(250,250,250) !default;
-$brand-color: rgb(0,135,0) !default; // changed to achieve contrast ratio of 4.5:1
+$brand-color: rgb(0,135,0) !default;
+$comment-by-postauthor: tint($brand-color, 90) !default;
 $dark-grey: rgb(102,102,102) !default;
 $grey: rgb(229,229,229) !default;
 $white: rgb(255,255,255) !default;
@@ -22,6 +23,52 @@ $operator: rgb(102,50,10) !default;
 $operator-background: hsla(0,0%,100%,.5) !default;
 $function: rgb(44,17,166) !default;
 $regex: rgb(102,50,10) !default;
+
+// -----------------------------------------------------------------------------
+// CSS CUSTOM PROPERTIES FOR COLOR MODES
+// -----------------------------------------------------------------------------
+
+:root {
+  --color-background: #{$background};
+  --color-background-accent: #{$background};
+  --color-comment-by-postauthor: #{$comment-by-postauthor};
+  --color-background-hover: #{$grey};
+  --color-text-default: #{$text};
+  --color-accent: #{$brand-color};
+  --color-border: #{$grey};
+  --color-reduced: #{$dark-grey};
+  --color-prism-background: #{$grey};
+  --color-prism-comment: #{$comment};
+  --color-prism-punctuation: #{$punctuation};
+  --color-prism-property: #{$property};
+  --color-prism-selector: #{$selector};
+  --color-prism-operator: #{$operator};
+  --color-prism-operator-background: #{$operator-background};
+  --color-prism-function: #{$function};
+  --color-prism-regex: #{$regex};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #{$text};
+    --color-background-accent: #{$grey};
+    --color-comment-by-postauthor: #2d2d2d;
+    --color-background-hover: #{$dark-grey};
+    --color-text-default: #{$grey};
+    --color-accent: #{$brand-color};
+    --color-border: rgb(26,26,26);
+    --color-reduced: rgb(90,90,90);
+    --color-prism-background: #2d2d2d;
+    --color-prism-comment: #999;
+    --color-prism-punctuation: #ccc;
+    --color-prism-property: #f8c555;
+    --color-prism-selector: #cc99cd;
+    --color-prism-operator: #67cdcc;
+    --color-prism-operator-background: #2d2d2d;
+    --color-prism-function: #f08d49;
+    --color-prism-regex: #7ec699;
+  }
+}
 
 
 // -----------------------------------------------------------------------------

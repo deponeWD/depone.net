@@ -39,8 +39,11 @@ html {
 
 body {
   background-color: $background;
+  background-color: var(--color-background);
   border-top: rem(5px) solid $brand-color;
+  border-top: rem(5px) solid var(--color-accent);
   color: $text;
+  color: var(--color-text-default);
   font-family: "Source Sans Pro Regular", sans-serif;
   font-size: 100%;
   line-height: 1.4;
@@ -50,11 +53,12 @@ body {
   -webkit-text-size-adjust: none;
 
   @include breakpoint($medium) {
-    border-top: rem(3px) solid $brand-color;
+    border-top-width: rem(3px);
   }
 
   .offline & {
     border-top: rem(5px) solid $grey;
+    border-top: rem(5px) solid var(--color-border)
   }
 }
 
@@ -87,6 +91,7 @@ header h1 {
 header h1 a,
 header h1 a:visited {
   color: $text;
+  color: var(--color-text-default);
   height: 100%;
   margin: 0;
   opacity: 1;
@@ -97,6 +102,7 @@ header h1 a:visited {
   &:hover,
   &:focus {
     color: $brand-color;
+    color: var(--color-accent);
   }
 }
 
@@ -109,8 +115,12 @@ header .description {
 }
 
 nav#mainnav {
-  border-top: 1px solid $dark-grey;
-  border-bottom: 1px solid $dark-grey;
+  border-color: $dark-grey;
+  border-color: var(--color-reduced);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
   display: block;
   font-size: rem(18px);
   left: 0;
@@ -145,6 +155,7 @@ nav#mainnav ul li {
 
 nav#mainnav ul li a {
   color: $text;
+  color: var(--color-text-default);
   margin: 0;
   padding: 0 rem(3px);
   text-decoration: none;
@@ -159,6 +170,7 @@ nav#mainnav ul li.current_page_parent a,
 nav#mainnav ul li a:hover,
 nav#mainnav ul li a:focus {
   color: $brand-color;
+  color: var(--color-accent);
 }
 
 nav#mainnav ul li ul.children {
@@ -197,6 +209,7 @@ h2 a {
 
 h2.section a {
   color: $text;
+  color: var(--color-text-default);
   text-decoration: none;
 }
 
@@ -225,6 +238,7 @@ h3.archive {
 h2.comment-count,
 h3.comment-reply-title {
   border-bottom: 1px solid $dark-grey;
+  border-bottom: 1px solid var(--color-reduced);
   font-size: rem(32px);
   margin-top: 0;
   padding: rem(16px) 0;
@@ -271,6 +285,7 @@ h4 {
 a,
 a:visited {
   color: $brand-color;
+  color: var(--color-accent);
   text-decoration: underline;
   transition: color 0.3s ease-out, text-decoration 0.3s ease-out;
 }
@@ -278,6 +293,7 @@ a:visited {
 a:hover,
 a:focus {
   color: $text;
+  color: var(--color-text-default);
   text-decoration: none;
 }
 
@@ -457,12 +473,15 @@ hr {
   clear: both;
   color: $background;
   background-color: $background;
+  background-color: var(--color-background);
   border: 1px solid $background;
+  border: 1px solid var(--color-background);
   display: block;
 }
 
 blockquote {
   border-left: rem(3px) solid $brand-color;
+  border-left: rem(3px) solid var(--color-accent);
   font-family: "Source Sans Pro Italic", sans-serif;
   font-style: normal;
   padding: rem(8px) 6%;
@@ -481,6 +500,7 @@ code {
 
 p.postmetadata {
   color: $dark-grey;
+  color: var(--color-reduced);
   font-size: rem(18px);
 }
 
@@ -497,8 +517,12 @@ p.proinfo.classic {
 }
 
 nav.pagination {
-  border-top: 1px solid $dark-grey;
-  border-bottom: 1px solid $dark-grey;
+  border-color: $dark-grey;
+  border-color: var(--color-reduced);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
   display: block;
   font-size: rem(18px);
   padding: rem(16px) 0;
@@ -582,10 +606,7 @@ a.weiterlesen {
 
 h2.kommentaranzahl {
   border-bottom: 1px solid $dark-grey;
-
-  @include breakpoint($medium) {
-    // kommentaranzahl
-  }
+  border-bottom: 1px solid var(--color-reduced);
 }
 
 .mention-list,
@@ -625,10 +646,12 @@ ol.commentlist li.odd > article {
 
 ol.commentlist li.odd > article {
   background-color: $grey;
+  background-color: var(--color-border);
 }
 
 ol.commentlist li.bypostauthor > article {
-  background-color: tint($brand-color, 90);
+  background-color: $comment-by-postauthor;
+  background-color: var(--color-comment-by-postauthor);
   border-radius: $border-radius;
   border: 0;
 }
@@ -755,9 +778,12 @@ input[type="url"],
 textarea,
 form.suchformular input[type="text"] {
   background-color: $background;
+  background-color: var(--color-background);
   border: 1px solid $dark-grey;
+  border: 1px solid var(--color-reduced);
   border-radius: $border-radius;
   color: $text;
+  color: var(--color-text-default);
   display: block;
   font-family: inherit;
   font-size: rem(18px);
@@ -781,9 +807,11 @@ input[type="url"]:focus,
 textarea:focus,
 form.suchformular input[type="text"]:focus {
   background-color: $white;
+  background-color: var(--color-background);
   border: 1px solid transparentize($brand-color, 0.3);
   box-shadow: 0 0 rem(5px) transparentize($brand-color, 0.3);
   color: $text;
+  color: var(--color-text-default);
   outline: none;
   text-indent: 0;
   z-index: 1;
@@ -792,13 +820,16 @@ form.suchformular input[type="text"]:focus {
 input#submit,
 input[type="submit"] {
   background-color: $text;
+  background-color: var(--color-text-default);
   border: 1px solid $text;
+  border: 1px solid var(--color-text-default);
   -webkit-border-radius: $border-radius;
   -moz-border-radius: $border-radius;
   -ms-border-radius: $border-radius;
   -o-border-radius: $border-radius;
   border-radius: $border-radius;
   color: $background;
+  color: var(--color-background);
   font-family: inherit;
   font-size: rem(18px);
   line-height: inherit;
@@ -829,8 +860,11 @@ input#submit:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
     background-color: $dark-grey;
+    background-color: var(--color-reduced);
     border-color: $dark-grey;
+    border-color: var(--color-reduced);
     color: $white;
+    color: var(--color-background);
     cursor: pointer;
     outline: none;
     }
@@ -850,7 +884,9 @@ div.wpcf7-mail-sent-ok {
 
 footer {
   border-bottom: 1px solid $dark-grey;
+  border-bottom: 1px solid var(--color-reduced);
   color: $text;
+  color: var(--color-text-default);
   clear: both;
   display: block;
   font-size: rem(18px);
@@ -860,6 +896,7 @@ footer {
 
   @include breakpoint($small) {
     border-top: 1px solid $dark-grey;
+    border-top: 1px solid var(--color-reduced);
   }
 
   @include breakpoint($medium) {
@@ -868,6 +905,7 @@ footer {
 
   > * {
     border-top: 1px solid $dark-grey;
+    border-top: 1px solid var(--color-reduced);
     margin: 0;
     padding: rem(16px) 0;
   }
@@ -939,6 +977,7 @@ footer ul.third li {
 
 footer ul li strong {
   color: $brand-color;
+  color: var(--color-accent);
   font-family: "Source Sans Pro Semibold", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
