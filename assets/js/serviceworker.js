@@ -33,6 +33,7 @@ function updateStaticCache() {
             return cache.addAll([
 							themePath + 'style.css',
 							themePath + 'assets/js/app.min.js',
+              themePath + 'assets/js/list-offline-posts.js',
 							themePath + 'offline.html'
             ]);
         });
