@@ -811,6 +811,17 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/assets/js/list-offline-posts.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/assets/js/list-offline-posts-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"/assets/js/prism.js": {
 		"bF": 0,
 		"ft": 64,
