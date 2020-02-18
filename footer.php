@@ -17,19 +17,17 @@
 
   <?php wp_footer(); ?>
   <script>
-    <!--
+    const homeURL = "<?php echo get_option('home'); ?>";
+    const swPath = homeURL + '/serviceworker.min.js';
     // Register our service-worker
     if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('/serviceworker.min.js', {
-            scope: './'
-        });
+        navigator.serviceWorker.register(swPath);
         window.addEventListener('load', function() {
             if (navigator.serviceWorker.controller) {
                 navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
             }
         });
     }
-    //-->
   </script>
 </body>
 </html>

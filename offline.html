@@ -121,20 +121,5 @@
   /* ]]> */
   </script>
   <script type='text/javascript' src='https://depone.net/wp-content/themes/netz/assets/js/app.min.js'></script>
-  <script>
-    <!--
-    // Register our service-worker
-    if (navigator.serviceWorker) {
-        navigator.serviceWorker.register('/serviceworker.min.js', {
-            scope: './'
-        });
-        window.addEventListener('load', function() {
-            if (navigator.serviceWorker.controller) {
-                navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-            }
-        });
-    }
-    //-->
-  </script>
 </body>
 </html>
