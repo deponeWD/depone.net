@@ -93,7 +93,7 @@ self.addEventListener('fetch', event => {
     let url = new URL(request.url);
 
     // Ignore requests to some directories
-    if (request.url.match('/wp-admin/') || request.url.match('/preview=true/')) {
+    if (request.url.match('/wp-admin/') || request.url.match('preview=true')) {
         return;
     }
 
