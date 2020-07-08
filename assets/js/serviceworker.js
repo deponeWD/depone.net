@@ -27,7 +27,15 @@ function updateStaticCache() {
             cache.addAll([
                 'wp-content/uploads/2008/06/depone-16x9-640x360.jpg',
                 themePath + 'assets/img/depone.svg',
-								themePath + 'assets/img/depone.png'
+								themePath + 'assets/img/depone.png',
+                themePath + 'assets/fonts/SourceSansPro-Semibold-subset.woff',
+                themePath + 'assets/fonts/SourceSansPro-Semibold-subset.woff2',
+                themePath + 'assets/fonts/SourceSansPro-Regular-subset.woff',
+                themePath + 'assets/fonts/SourceSansPro-Regular-subset.woff2',
+                themePath + 'assets/fonts/SourceSansPro-It-subset.woff',
+                themePath + 'assets/fonts/SourceSansPro-It-subset.woff2',
+                themePath + 'assets/fonts/SourceCodePro-Regular-subset.woff',
+                themePath + 'assets/fonts/SourceCodePro-Regular-subset.woff2'
             ].concat(offlinePages));
             // These items must be cached for the Service Worker to complete installation
             return cache.addAll([
