@@ -64,7 +64,7 @@
       'app', //handle
       get_template_directory_uri() . '/assets/js/app.min.js', //source
       null, // dependencies
-      null, // remove Version for serviceWorker
+      // null, // remove Version for serviceWorker
       CURRENT_THEME_VERSION,
       // filemtime( get_template_directory() . '/assets/js/app.min.js' ), // version
       true //run in footer
