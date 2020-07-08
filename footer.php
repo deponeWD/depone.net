@@ -1,10 +1,10 @@
 <footer role="contentinfo">
     <ul class="first first--centered h-card">
-        <li><img class="u-photo h-card-avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/depone.jpg"></li>
+        <li><a class="u-url url fn u-uid" href="<?php echo esc_url( home_url('/') ); ?>"><img class="u-photo h-card-avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/depone.jpg"></a></li>
         <li class="p-name"><strong>DEPONE Netzgestaltung</strong></li>
         <li class="p-name">Daniel Ehniss</li>
-        <li>daniel@depone.de</li>
-        <li><a rel="me" class="url" href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" >@depone</a></li>
+        <li class="u-email">daniel@depone.de</li>
+        <li><a rel="me" class="url u-url" href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" >@depone</a></li>
     </ul>
     <ul class="third" >
         <li><a href="<?php echo esc_url( home_url( '/kontakt/' ) ); ?>" title="Link zur Kontaktseite" >Kontakt</a></li>
