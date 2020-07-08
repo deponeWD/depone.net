@@ -1,5 +1,9 @@
 <?php
 /**
+ * Set Version Number
+*/
+  define( 'CURRENT_THEME_VERSION', '2.0.1');
+/**
     * 2 Seitenleisten wird eingerichtet
 */
   if ( function_exists('register_sidebar') ) {
@@ -39,8 +43,8 @@
       'main-stylesheet', //handle
       get_template_directory_uri() . '/style.css', //source
       null, //no dependencies
-      null // remove Version for serviceWorker
-      // filemtime( get_stylesheet_directory() . '/style.css' ) //version
+      // null // remove Version for serviceWorker
+      CURRENT_THEME_VERSION
     );
   }
   add_action('init', 'dpng_register_styles');
@@ -61,6 +65,7 @@
       get_template_directory_uri() . '/assets/js/app.min.js', //source
       null, // dependencies
       null, // remove Version for serviceWorker
+      CURRENT_THEME_VERSION,
       // filemtime( get_template_directory() . '/assets/js/app.min.js' ), // version
       true //run in footer
     );
@@ -70,7 +75,10 @@
   function dpng_enqueue_scripts(){
     if (!is_admin()):
       // Create variable with url of template directory to be used in javascript
-      $themeParams = array( 'templateURL' => get_bloginfo('template_url') );
+      $themeParams = array(
+        'templateURL' => get_bloginfo('template_url'),
+        'currentThemeVersion' => CURRENT_THEME_VERSION,
+      );
       wp_localize_script( 'app', 'themeParams', $themeParams );
       // Enqueue Script
       wp_enqueue_script('app'); //app.min.js

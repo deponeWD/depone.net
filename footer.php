@@ -1,6 +1,6 @@
 <footer role="contentinfo">
     <ul class="first first--centered h-card">
-        <li><a class="u-url url fn u-uid" href="<?php echo esc_url( home_url('/') ); ?>"><img class="u-photo h-card-avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/depone.jpg"></a></li>
+        <li><a class="u-url url fn u-uid" href="<?php echo esc_url( home_url('/') ); ?>"><img class="u-photo h-card-avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/depone.jpg" alt="Portrait von Daniel Ehniss"></a></li>
         <li class="p-name"><strong>DEPONE Netzgestaltung</strong></li>
         <li class="p-name">Daniel Ehniss</li>
         <li class="u-email">daniel@depone.de</li>

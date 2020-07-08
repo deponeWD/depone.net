@@ -1,7 +1,7 @@
 'use strict';
 
-const version = 'v0.10::';
-const staticCacheName = version + 'static';
+const version = '2.0.1';
+const staticCacheName = 'v' + version + '::' + 'static';
 const pagesCacheName = 'pages';
 const imagesCacheName = 'images';
 const themePath = 'wp-content/themes/netz/';
@@ -31,8 +31,8 @@ function updateStaticCache() {
             ].concat(offlinePages));
             // These items must be cached for the Service Worker to complete installation
             return cache.addAll([
-							themePath + 'style.css',
-							themePath + 'assets/js/app.min.js',
+							themePath + 'style.css?ver=' + version,
+							themePath + 'assets/js/app.min.js?ver=' + version,
               themePath + 'assets/js/list-offline-posts.js',
 							themePath + 'offline.html'
             ]);
