@@ -27,6 +27,7 @@ Author URI: https://depone.de
 // 4. Layout-related sections
 // 5. Components
 @import
+  'components/hcard',
   'components/webmentions';
 
 /* apply a natural box layout model to all elements, but allowing components to change */

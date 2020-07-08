@@ -1,7 +1,8 @@
 <footer role="contentinfo">
-    <ul class="first first--centered">
-        <li><strong>DEPONE Netzgestaltung</strong></li>
-        <li>Daniel Ehniss</li>
+    <ul class="first first--centered h-card">
+        <li><img class="u-photo h-card-avatar" src="<?php echo get_template_directory_uri(); ?>/assets/img/depone.jpg"></li>
+        <li class="p-name"><strong>DEPONE Netzgestaltung</strong></li>
+        <li class="p-name">Daniel Ehniss</li>
         <li>daniel@depone.de</li>
         <li><a rel="me" class="url" href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" >@depone</a></li>
     </ul>

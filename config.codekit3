@@ -735,6 +735,17 @@
 		"oAP": "/assets/fonts/SourceSansPro-Semibold-subset.woff2",
 		"oF": 0
 		},
+	"/assets/img/depone.jpg": {
+		"ft": 16384,
+		"iS": 58004,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/depone.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/depone.png": {
 		"ft": 32768,
 		"iS": 4193,
@@ -1020,6 +1031,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/styles/base/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/assets/styles/components/_hcard.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/styles/components/_hcard.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
