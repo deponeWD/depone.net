@@ -4,7 +4,7 @@
         <li class="p-name"><strong>DEPONE Netzgestaltung</strong></li>
         <li class="p-name">Daniel Ehniss</li>
         <li class="u-email">daniel@depone.de</li>
-        <li><a rel="me" class="url u-url" href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" >@depone</a></li>
+        <li><a rel="me" class="url u-url" href="https://twitter.com/depone" title="Link zu meinem Twitterprofil" target="_blank" rel="noopener noreferrer">@depone</a></li>
     </ul>
     <ul class="third" >
         <li><a href="<?php echo esc_url( home_url( '/kontakt/' ) ); ?>" title="Link zur Kontaktseite" >Kontakt</a></li>
