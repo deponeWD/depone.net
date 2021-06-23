@@ -68,7 +68,6 @@
 
 <header role="banner">
     <h1>
-
       <?php
         if (!is_front_page()) {
           echo '<a href="';
