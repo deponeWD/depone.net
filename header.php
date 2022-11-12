@@ -36,7 +36,7 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" >
 
 <link rel="me" href="https://twitter.com/depone">
-<link rel="me" href="https://mastodon.social/@depone">
+<link rel="me" href="https://chaos.social/@depone">
 <link rel="pgpkey" href="https://depone.net/daniel.asc">
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
